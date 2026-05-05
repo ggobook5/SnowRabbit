@@ -3,17 +3,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement: MonoBehaviour
 {
-    // Management
-    private static PlayerMovement instance;
+    // Game Management
     private float _deltaTime;
 
     // Character
     private Rigidbody2D _rigid;
     private SpriteRenderer _render;
     private PlayerAnimation _pAnim;
-
-    public Vector2 spawnPoint = Vector2.zero;
-    public static bool playerPause = false;
 
 
     // Movement
@@ -34,7 +30,7 @@ public class PlayerMovement: MonoBehaviour
     [Tooltip("Time the character stopped (in seconds)")]
     public float stopTime = 0f;
 
-    private Vector2 inputDirection;
+    public Vector2 inputDirection;
 
 
     // Jump
@@ -123,21 +119,6 @@ public class PlayerMovement: MonoBehaviour
 
 
 
-    private void Awake()
-    {
-        if (instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-
-        GetComponent<PlayerInput>().enabled = true;
-    }
 
     void Start()
     {
@@ -149,7 +130,7 @@ public class PlayerMovement: MonoBehaviour
 
     void Update()
     {
-        if (playerPause)
+        if (PlayerManager.playerPause)
         {
             return;
         }
@@ -182,7 +163,7 @@ public class PlayerMovement: MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (playerPause)
+        if (PlayerManager.playerPause)
         {
             return;
         }
@@ -282,23 +263,5 @@ public class PlayerMovement: MonoBehaviour
             _rigid.gravityScale = 1f;
             wallStopTime = 0f;
         }
-    }
-
-    public void PlayerPauseOn()
-    {
-        playerPause = true;
-        _rigid.linearVelocity = Vector2.zero;
-        _rigid.gravityScale = 0f;
-    }
-
-    public void PlayerPauseOff()
-    {
-        playerPause = false;
-        _rigid.gravityScale = 1f;
-    }
-
-    public void Respawn()
-    {
-        transform.position = spawnPoint;
     }
 }

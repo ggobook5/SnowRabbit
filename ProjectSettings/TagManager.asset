@@ -16,7 +16,7 @@ TagManager:
   - Camera
   - Water
   - UI
-  - Character
+  - Player
   - Ground
   - Wall
   - Mushroom
