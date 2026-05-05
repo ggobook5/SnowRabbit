@@ -26,24 +26,17 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.TryGetComponent<CinemachineCamera>(out CinemachineCamera _camera))
+        if (collision.gameObject.CompareTag("Monster"))
         {
-            _camera.Priority = 1;
+            collision.gameObject.SetActive(false);
+            _pAnim.Melt();
         }
         
         if (collision.TryGetComponent<SpawnPoint>(out SpawnPoint _spawn))
         {
-            _pMove.spawnPoint = _spawn.spawnPos;
+            PlayerManager.spawnPoint = _spawn.spawnPos;
+            PlayerManager.isPlayerTouchSpawnPoint = true;
             collision.enabled = false;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.TryGetComponent<CinemachineCamera>(out CinemachineCamera _camera))
-        {
-            _camera.Priority = 0;
-            collision.isTrigger = false;
         }
     }
 }
