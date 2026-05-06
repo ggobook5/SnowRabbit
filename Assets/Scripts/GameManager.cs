@@ -4,7 +4,6 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
     public static int currentSceneIndex = 0;
-    public static Vector2 playerSpawnPoint = Vector2.zero;
 
     private void Awake()
     {
