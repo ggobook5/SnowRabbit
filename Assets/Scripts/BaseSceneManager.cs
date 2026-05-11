@@ -13,7 +13,7 @@ public class BaseSceneManager : MonoBehaviour
 
     public IEnumerator LoadScenes(int sceneIndex)
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex, LoadSceneMode.Additive);
         GameManager.currentSceneIndex = sceneIndex;
 
         while (!asyncLoad.isDone)

@@ -38,13 +38,4 @@ public class PlayerInteraction : MonoBehaviour
             collision.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.TryGetComponent<CinemachineCamera>(out CinemachineCamera _camera))
-        {
-            _camera.Priority = 0;
-            collision.isTrigger = false;
-        }
-    }
 }
