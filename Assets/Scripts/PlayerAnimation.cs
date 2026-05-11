@@ -27,7 +27,7 @@ public class PlayerAnimation : MonoBehaviour
 
     void Update()
     {
-        _anim.SetFloat(animIDSpeedX, _pMove.inputDirection.x);
+        _anim.SetFloat(animIDSpeedX, _rigid.linearVelocityX);
         _anim.SetFloat(animIDSpeedY, _rigid.linearVelocityY);
         _anim.SetBool(animIDGrounded, _pMove.isGround);
         _anim.SetBool(animIDCharge, _pMove.isJumpCharging);
