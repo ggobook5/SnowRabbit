@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: 7e2a8f3c862ce3649965c1325169141f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2532168221858720804
+    second: ef_dash_smoke_0
+  - first:
+      213: 2149473164220624248
+    second: ef_dash_smoke_1
+  - first:
+      213: 4028077868333086808
+    second: ef_dash_smoke_2
+  - first:
+      213: 6670082395311761538
+    second: ef_dash_smoke_3
+  - first:
+      213: -3419606075370286418
+    second: ef_dash_smoke_4
+  - first:
+      213: -6635456995302187556
+    second: ef_dash_smoke_5
+  - first:
+      213: 2762952851507465944
+    second: ef_dash_smoke_6
+  - first:
+      213: -3241813900486896770
+    second: ef_dash_smoke_7
+  - first:
+      213: -935085466674856302
+    second: ef_dash_smoke_8
+  - first:
+      213: 434497419125446988
+    second: ef_dash_smoke_9
+  - first:
+      213: 2942601388057403209
+    second: ef_dash_smoke_10
+  - first:
+      213: 2960524532959006808
+    second: ef_dash_smoke_11
+  - first:
+      213: -2253279640150779342
+    second: ef_dash_smoke_12
+  - first:
+      213: 3294135414711141906
+    second: ef_dash_smoke_13
+  - first:
+      213: 1476031503718488305
+    second: ef_dash_smoke_14
+  - first:
+      213: -5345026597777876890
+    second: ef_dash_smoke_15
+  - first:
+      213: 3752187984209860927
+    second: ef_dash_smoke_16
+  - first:
+      213: 1976577403699334717
+    second: ef_dash_smoke_17
+  - first:
+      213: 2327977740536977347
+    second: ef_dash_smoke_18
+  - first:
+      213: 1021180467752088919
+    second: ef_dash_smoke_19
+  - first:
+      213: 6352442238641775264
+    second: ef_dash_smoke_20
+  - first:
+      213: 7952139404241579172
+    second: ef_dash_smoke_21
+  - first:
+      213: 7661193929359340426
+    second: ef_dash_smoke_22
+  - first:
+      213: 1673409086037904676
+    second: ef_dash_smoke_23
+  - first:
+      213: -240360287875818340
+    second: ef_dash_smoke_24
+  - first:
+      213: -7974238731895975587
+    second: ef_dash_smoke_25
+  - first:
+      213: 7966219786972959167
+    second: ef_dash_smoke_26
+  - first:
+      213: 4048973994870139205
+    second: ef_dash_smoke_27
+  - first:
+      213: -84491134546913735
+    second: ef_dash_smoke_28
+  - first:
+      213: 8706693815102638723
+    second: ef_dash_smoke_29
+  - first:
+      213: 6429807811516860560
+    second: ef_dash_smoke_30
+  - first:
+      213: 6973996688978500133
+    second: ef_dash_smoke_31
+  - first:
+      213: -6338790070667471374
+    second: ef_dash_smoke_32
+  - first:
+      213: 7405771061502254899
+    second: ef_dash_smoke_33
+  - first:
+      213: 9008294456836414179
+    second: ef_dash_smoke_34
+  - first:
+      213: 771357115466157526
+    second: ef_dash_smoke_35
+  - first:
+      213: 1154788068554039577
+    second: ef_dash_smoke_36
+  - first:
+      213: -8350408777644902982
+    second: ef_dash_smoke_37
+  - first:
+      213: -8254922767076002235
+    second: ef_dash_smoke_38
+  - first:
+      213: 4512019003470880196
+    second: ef_dash_smoke_39
+  - first:
+      213: -5496356176480117206
+    second: ef_dash_smoke_40
+  - first:
+      213: 4110361751247033360
+    second: ef_dash_smoke_41
+  - first:
+      213: 3303902365450702646
+    second: ef_dash_smoke_42
+  - first:
+      213: 5673385359811300441
+    second: ef_dash_smoke_43
+  - first:
+      213: -3744108394010491300
+    second: ef_dash_smoke_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ef_dash_smoke_0
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 311
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ceb6fe491142320800000000000000
+      internalID: 2532168221858720804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 319
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dea97547674dd10800000000000000
+      internalID: 2149473164220624248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 311
+        width: 70
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8583b95ca7b96e730800000000000000
+      internalID: 4028077868333086808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 207
+        width: 170
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288e4235994e09c50800000000000000
+      internalID: 6670082395311761538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 259
+        width: 150
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea259cd646e1b80d0800000000000000
+      internalID: -3419606075370286418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 207
+        width: 134
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddd1a8d40f1ae3a0800000000000000
+      internalID: -6635456995302187556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 259
+        width: 174
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de414dcafaf75620800000000000000
+      internalID: 2762952851507465944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_7
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 239
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e731e81fe63c203d0800000000000000
+      internalID: -3241813900486896770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 211
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ef63ce8b8e503f0800000000000000
+      internalID: -935085466674856302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 155
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49dbc2c915a70600800000000000000
+      internalID: 434497419125446988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 155
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f9bb23f5836d820800000000000000
+      internalID: 2942601388057403209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 179
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850d9df8065e51920800000000000000
+      internalID: 2960524532959006808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 155
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a513d0b1ebab0e0800000000000000
+      internalID: -2253279640150779342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 163
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21644e3e4be17bd20800000000000000
+      internalID: 3294135414711141906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 159
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f81d6015daeb7410800000000000000
+      internalID: 1476031503718488305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 155
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6685f64e0a6a2d5b0800000000000000
+      internalID: -5345026597777876890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_16
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 163
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3951597713721430800000000000000
+      internalID: 3752187984209860927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e00922da63e6b10800000000000000
+      internalID: 1976577403699334717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 131
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c719bdbb63ae4020800000000000000
+      internalID: 2327977740536977347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_19
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 103
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7553ee79936fb2e00800000000000000
+      internalID: 1021180467752088919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_20
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 131
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a22e623f88682850800000000000000
+      internalID: 6352442238641775264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_21
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 131
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aca43ae7acab5e60800000000000000
+      internalID: 7952139404241579172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 103
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83b7dab947025a60800000000000000
+      internalID: 7661193929359340426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 107
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d433992b4293710800000000000000
+      internalID: 1673409086037904676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_24
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 115
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c1d0777911aacf0800000000000000
+      internalID: -240360287875818340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_25
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 107
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51dd276f10d55190800000000000000
+      internalID: -7974238731895975587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_26
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 111
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1163d70b2bd8e60800000000000000
+      internalID: 7966219786972959167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549670d5568d03830800000000000000
+      internalID: 4048973994870139205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 59
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93659a2c2c3d3def0800000000000000
+      internalID: -84491134546913735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_29
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 55
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a884115e364d870800000000000000
+      internalID: 8706693815102638723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 55
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0988e7353244b3950800000000000000
+      internalID: 6429807811516860560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_31
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 63
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a505fe90d98c060800000000000000
+      internalID: 6973996688978500133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 67
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5971cd3081808a0800000000000000
+      internalID: -6338790070667471374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_33
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 55
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f95b00b8596c660800000000000000
+      internalID: 7405771061502254899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_34
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 67
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eadadb9414e30d70800000000000000
+      internalID: 9008294456836414179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_35
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 59
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd845ea53964ba00800000000000000
+      internalID: 771357115466157526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_36
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 55
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911e50941a1a60010800000000000000
+      internalID: 1154788068554039577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_37
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 67
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5fb2785736d1c80800000000000000
+      internalID: -8350408777644902982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5467624da7f907d80800000000000000
+      internalID: -8254922767076002235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_39
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 15
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd91b1c069ed9e30800000000000000
+      internalID: 4512019003470880196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 11
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ed0edad2509b3b0800000000000000
+      internalID: -5496356176480117206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_41
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 15
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0149e613c30fa0930800000000000000
+      internalID: 4110361751247033360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_42
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 15
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f034152b1d9dd20800000000000000
+      internalID: 3303902365450702646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 11
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c44750de9ebbe40800000000000000
+      internalID: 5673385359811300441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_dash_smoke_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c564276b0414a0cc0800000000000000
+      internalID: -3744108394010491300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ef_dash_smoke_0: 2532168221858720804
+      ef_dash_smoke_1: 2149473164220624248
+      ef_dash_smoke_10: 2942601388057403209
+      ef_dash_smoke_11: 2960524532959006808
+      ef_dash_smoke_12: -2253279640150779342
+      ef_dash_smoke_13: 3294135414711141906
+      ef_dash_smoke_14: 1476031503718488305
+      ef_dash_smoke_15: -5345026597777876890
+      ef_dash_smoke_16: 3752187984209860927
+      ef_dash_smoke_17: 1976577403699334717
+      ef_dash_smoke_18: 2327977740536977347
+      ef_dash_smoke_19: 1021180467752088919
+      ef_dash_smoke_2: 4028077868333086808
+      ef_dash_smoke_20: 6352442238641775264
+      ef_dash_smoke_21: 7952139404241579172
+      ef_dash_smoke_22: 7661193929359340426
+      ef_dash_smoke_23: 1673409086037904676
+      ef_dash_smoke_24: -240360287875818340
+      ef_dash_smoke_25: -7974238731895975587
+      ef_dash_smoke_26: 7966219786972959167
+      ef_dash_smoke_27: 4048973994870139205
+      ef_dash_smoke_28: -84491134546913735
+      ef_dash_smoke_29: 8706693815102638723
+      ef_dash_smoke_3: 6670082395311761538
+      ef_dash_smoke_30: 6429807811516860560
+      ef_dash_smoke_31: 6973996688978500133
+      ef_dash_smoke_32: -6338790070667471374
+      ef_dash_smoke_33: 7405771061502254899
+      ef_dash_smoke_34: 9008294456836414179
+      ef_dash_smoke_35: 771357115466157526
+      ef_dash_smoke_36: 1154788068554039577
+      ef_dash_smoke_37: -8350408777644902982
+      ef_dash_smoke_38: -8254922767076002235
+      ef_dash_smoke_39: 4512019003470880196
+      ef_dash_smoke_4: -3419606075370286418
+      ef_dash_smoke_40: -5496356176480117206
+      ef_dash_smoke_41: 4110361751247033360
+      ef_dash_smoke_42: 3303902365450702646
+      ef_dash_smoke_43: 5673385359811300441
+      ef_dash_smoke_44: -3744108394010491300
+      ef_dash_smoke_5: -6635456995302187556
+      ef_dash_smoke_6: 2762952851507465944
+      ef_dash_smoke_7: -3241813900486896770
+      ef_dash_smoke_8: -935085466674856302
+      ef_dash_smoke_9: 434497419125446988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

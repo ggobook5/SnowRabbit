@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 04de6cca39e5968469dbcba4cbb258d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6327930160286730971
+    second: ef_seq_shock_smoke_0
+  - first:
+      213: -9136616750916669580
+    second: ef_seq_shock_smoke_1
+  - first:
+      213: -1867084914318140518
+    second: ef_seq_shock_smoke_2
+  - first:
+      213: -5972182497289065667
+    second: ef_seq_shock_smoke_3
+  - first:
+      213: 8319328792789269006
+    second: ef_seq_shock_smoke_4
+  - first:
+      213: 8693402940700445902
+    second: ef_seq_shock_smoke_5
+  - first:
+      213: -7866057293902343360
+    second: ef_seq_shock_smoke_6
+  - first:
+      213: -8352474117691476940
+    second: ef_seq_shock_smoke_7
+  - first:
+      213: 3199863117064575598
+    second: ef_seq_shock_smoke_8
+  - first:
+      213: 6335755217433072299
+    second: ef_seq_shock_smoke_9
+  - first:
+      213: -4647547741836395286
+    second: ef_seq_shock_smoke_10
+  - first:
+      213: 6082659175506481113
+    second: ef_seq_shock_smoke_11
+  - first:
+      213: 5265475541102168901
+    second: ef_seq_shock_smoke_12
+  - first:
+      213: 4981952368348237838
+    second: ef_seq_shock_smoke_13
+  - first:
+      213: 5834079499432967377
+    second: ef_seq_shock_smoke_14
+  - first:
+      213: 9159729308160907445
+    second: ef_seq_shock_smoke_15
+  - first:
+      213: -4248596228984886568
+    second: ef_seq_shock_smoke_16
+  - first:
+      213: 4426960424821130319
+    second: ef_seq_shock_smoke_17
+  - first:
+      213: -4110963148884968335
+    second: ef_seq_shock_smoke_18
+  - first:
+      213: -1370317714306696792
+    second: ef_seq_shock_smoke_19
+  - first:
+      213: 5721110057395116493
+    second: ef_seq_shock_smoke_20
+  - first:
+      213: 3258600556210004188
+    second: ef_seq_shock_smoke_21
+  - first:
+      213: 4196702720955236477
+    second: ef_seq_shock_smoke_22
+  - first:
+      213: 4627938589077442889
+    second: ef_seq_shock_smoke_23
+  - first:
+      213: 3068707485033631730
+    second: ef_seq_shock_smoke_24
+  - first:
+      213: -4421869975222057276
+    second: ef_seq_shock_smoke_25
+  - first:
+      213: 5060445169379316662
+    second: ef_seq_shock_smoke_26
+  - first:
+      213: 5838416283551451292
+    second: ef_seq_shock_smoke_27
+  - first:
+      213: -4894425835644940076
+    second: ef_seq_shock_smoke_28
+  - first:
+      213: 8310136393569464538
+    second: ef_seq_shock_smoke_29
+  - first:
+      213: -335823080708658158
+    second: ef_seq_shock_smoke_30
+  - first:
+      213: 8392109535977029956
+    second: ef_seq_shock_smoke_31
+  - first:
+      213: -3450586989243721817
+    second: ef_seq_shock_smoke_32
+  - first:
+      213: 1389266844304877847
+    second: ef_seq_shock_smoke_33
+  - first:
+      213: 4613745152494897879
+    second: ef_seq_shock_smoke_34
+  - first:
+      213: -3475311291366866819
+    second: ef_seq_shock_smoke_35
+  - first:
+      213: -3980116183241657713
+    second: ef_seq_shock_smoke_36
+  - first:
+      213: -5483882911692278754
+    second: ef_seq_shock_smoke_37
+  - first:
+      213: -2401705289435207512
+    second: ef_seq_shock_smoke_38
+  - first:
+      213: 1867675331470623579
+    second: ef_seq_shock_smoke_39
+  - first:
+      213: -2392503031861502507
+    second: ef_seq_shock_smoke_40
+  - first:
+      213: 450068613187892725
+    second: ef_seq_shock_smoke_41
+  - first:
+      213: 2911655867185592704
+    second: ef_seq_shock_smoke_42
+  - first:
+      213: 190288608707062414
+    second: ef_seq_shock_smoke_43
+  - first:
+      213: 5838622855824479705
+    second: ef_seq_shock_smoke_44
+  - first:
+      213: -440345888307727242
+    second: ef_seq_shock_smoke_45
+  - first:
+      213: 6819892928647997067
+    second: ef_seq_shock_smoke_46
+  - first:
+      213: 9148145300127909692
+    second: ef_seq_shock_smoke_47
+  - first:
+      213: 3842289321456893079
+    second: ef_seq_shock_smoke_48
+  - first:
+      213: 507997575988650525
+    second: ef_seq_shock_smoke_49
+  - first:
+      213: 6425709603682903794
+    second: ef_seq_shock_smoke_50
+  - first:
+      213: -5279131309598207012
+    second: ef_seq_shock_smoke_51
+  - first:
+      213: -4954732421268575676
+    second: ef_seq_shock_smoke_52
+  - first:
+      213: -5283060213501579048
+    second: ef_seq_shock_smoke_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_0
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 136
+        width: 64
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda0f5734f251d750800000000000000
+      internalID: 6327930160286730971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_1
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 213
+        width: 70
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f6ab01977343180800000000000000
+      internalID: -9136616750916669580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 335
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b9394a928c616e0800000000000000
+      internalID: -1867084914318140518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 335
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ba74329ab8e1da0800000000000000
+      internalID: -5972182497289065667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_4
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 392
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a32e79571347370800000000000000
+      internalID: 8319328792789269006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_5
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 406
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc49c93aeb25a870800000000000000
+      internalID: 8693402940700445902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_6
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 404
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043941e319626d290800000000000000
+      internalID: -7866057293902343360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_7
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 411
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434fa531b0d061c80800000000000000
+      internalID: -8352474117691476940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_8
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 19
+        width: 55
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a12862d82386c20800000000000000
+      internalID: 3199863117064575598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_9
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 334
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba21dee4dcf1de750800000000000000
+      internalID: 6335755217433072299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_10
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 334
+        width: 21
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec3c2bd3f7908fb0800000000000000
+      internalID: -4647547741836395286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_11
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 358
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df85d5fa42f96450800000000000000
+      internalID: 6082659175506481113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_12
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 354
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b07e06b1ab21940800000000000000
+      internalID: 5265475541102168901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_13
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 376
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0010539843732540800000000000000
+      internalID: 4981952368348237838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_14
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 376
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc371bf460d6f050800000000000000
+      internalID: 5834079499432967377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_15
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 385
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b85aa38645ed1f70800000000000000
+      internalID: 9159729308160907445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_16
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 384
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8daaa416d34f905c0800000000000000
+      internalID: -4248596228984886568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 56
+        width: 43
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f440d242d09bf6d30800000000000000
+      internalID: 4426960424821130319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_18
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 350
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c7df10ccce2f6c0800000000000000
+      internalID: -4110963148884968335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_19
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 357
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9f2519c47abfce0800000000000000
+      internalID: -1370317714306696792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_20
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 312
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc953f31947756f40800000000000000
+      internalID: 5721110057395116493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_21
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 327
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0a9c9e0ffd83d20800000000000000
+      internalID: 3258600556210004188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_22
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 316
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70c37eb3eead3a30800000000000000
+      internalID: 4196702720955236477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_23
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 316
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941984c70adb93040800000000000000
+      internalID: 4627938589077442889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 9
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff030de23d369a20800000000000000
+      internalID: 3068707485033631730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_25
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 145
+        width: 16
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c68ce38fac52a2c0800000000000000
+      internalID: -4421869975222057276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_26
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 124
+        width: 22
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b31236f1105a3640800000000000000
+      internalID: 5060445169379316662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 92
+        width: 31
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98c0f73da8360150800000000000000
+      internalID: 5838416283551451292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_28
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 197
+        width: 6
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d093ee52a1831cb0800000000000000
+      internalID: -4894425835644940076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_29
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 225
+        width: 24
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0f0cd5509835370800000000000000
+      internalID: 8310136393569464538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_30
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 225
+        width: 24
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cabf6ffaae65bf0800000000000000
+      internalID: -335823080708658158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_31
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 259
+        width: 116
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4414410e823c67470800000000000000
+      internalID: 8392109535977029956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_32
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 58
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a71b8f4a6d0d10d0800000000000000
+      internalID: -3450586989243721817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_33
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 10
+        width: 59
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719250195daa74310800000000000000
+      internalID: 1389266844304877847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_34
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 5
+        width: 67
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da83a285c0570040800000000000000
+      internalID: 4613745152494897879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_35
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 87
+        width: 15
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d708c222bc635cfc0800000000000000
+      internalID: -3475311291366866819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_36
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 102
+        width: 25
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82f81d3b69c3c8c0800000000000000
+      internalID: -3980116183241657713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_37
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 102
+        width: 25
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e143fb2fb8555e3b0800000000000000
+      internalID: -5483882911692278754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_38
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 85
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8a90893cd6baed0800000000000000
+      internalID: -2401705289435207512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_39
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 82
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53011091d05be910800000000000000
+      internalID: 1867675331470623579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_40
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1
+        width: 58
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd99d52b2f1cced0800000000000000
+      internalID: -2392503031861502507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_41
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1
+        width: 58
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5fd95e407fe3600800000000000000
+      internalID: 450068613187892725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_42
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 48
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08977c7a597486820800000000000000
+      internalID: 2911655867185592704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_43
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 78
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aa9ce3b7a04a200800000000000000
+      internalID: 190288608707062414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_44
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 49
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d515e29d84f60150800000000000000
+      internalID: 5838622855824479705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_45
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 61
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6743d156fb393e9f0800000000000000
+      internalID: -440345888307727242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_46
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 43
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86234a3c7025ae50800000000000000
+      internalID: 6819892928647997067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_47
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 43
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3788c77eadb4fe70800000000000000
+      internalID: 9148145300127909692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_48
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 41
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cf6b1d7cd825530800000000000000
+      internalID: 3842289321456893079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_49
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1220979a15cc0700800000000000000
+      internalID: 507997575988650525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_50
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6e555f6d4bc2950800000000000000
+      internalID: 6425709603682903794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_51
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 0
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd391c04b02ccb6b0800000000000000
+      internalID: -5279131309598207012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_52
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 0
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aec293d114d3bb0800000000000000
+      internalID: -4954732421268575676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_seq_shock_smoke_53
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 0
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d03d370abccea6b0800000000000000
+      internalID: -5283060213501579048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ef_seq_shock_smoke_0: 6327930160286730971
+      ef_seq_shock_smoke_1: -9136616750916669580
+      ef_seq_shock_smoke_10: -4647547741836395286
+      ef_seq_shock_smoke_11: 6082659175506481113
+      ef_seq_shock_smoke_12: 5265475541102168901
+      ef_seq_shock_smoke_13: 4981952368348237838
+      ef_seq_shock_smoke_14: 5834079499432967377
+      ef_seq_shock_smoke_15: 9159729308160907445
+      ef_seq_shock_smoke_16: -4248596228984886568
+      ef_seq_shock_smoke_17: 4426960424821130319
+      ef_seq_shock_smoke_18: -4110963148884968335
+      ef_seq_shock_smoke_19: -1370317714306696792
+      ef_seq_shock_smoke_2: -1867084914318140518
+      ef_seq_shock_smoke_20: 5721110057395116493
+      ef_seq_shock_smoke_21: 3258600556210004188
+      ef_seq_shock_smoke_22: 4196702720955236477
+      ef_seq_shock_smoke_23: 4627938589077442889
+      ef_seq_shock_smoke_24: 3068707485033631730
+      ef_seq_shock_smoke_25: -4421869975222057276
+      ef_seq_shock_smoke_26: 5060445169379316662
+      ef_seq_shock_smoke_27: 5838416283551451292
+      ef_seq_shock_smoke_28: -4894425835644940076
+      ef_seq_shock_smoke_29: 8310136393569464538
+      ef_seq_shock_smoke_3: -5972182497289065667
+      ef_seq_shock_smoke_30: -335823080708658158
+      ef_seq_shock_smoke_31: 8392109535977029956
+      ef_seq_shock_smoke_32: -3450586989243721817
+      ef_seq_shock_smoke_33: 1389266844304877847
+      ef_seq_shock_smoke_34: 4613745152494897879
+      ef_seq_shock_smoke_35: -3475311291366866819
+      ef_seq_shock_smoke_36: -3980116183241657713
+      ef_seq_shock_smoke_37: -5483882911692278754
+      ef_seq_shock_smoke_38: -2401705289435207512
+      ef_seq_shock_smoke_39: 1867675331470623579
+      ef_seq_shock_smoke_4: 8319328792789269006
+      ef_seq_shock_smoke_40: -2392503031861502507
+      ef_seq_shock_smoke_41: 450068613187892725
+      ef_seq_shock_smoke_42: 2911655867185592704
+      ef_seq_shock_smoke_43: 190288608707062414
+      ef_seq_shock_smoke_44: 5838622855824479705
+      ef_seq_shock_smoke_45: -440345888307727242
+      ef_seq_shock_smoke_46: 6819892928647997067
+      ef_seq_shock_smoke_47: 9148145300127909692
+      ef_seq_shock_smoke_48: 3842289321456893079
+      ef_seq_shock_smoke_49: 507997575988650525
+      ef_seq_shock_smoke_5: 8693402940700445902
+      ef_seq_shock_smoke_50: 6425709603682903794
+      ef_seq_shock_smoke_51: -5279131309598207012
+      ef_seq_shock_smoke_52: -4954732421268575676
+      ef_seq_shock_smoke_53: -5283060213501579048
+      ef_seq_shock_smoke_6: -7866057293902343360
+      ef_seq_shock_smoke_7: -8352474117691476940
+      ef_seq_shock_smoke_8: 3199863117064575598
+      ef_seq_shock_smoke_9: 6335755217433072299
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

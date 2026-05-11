@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 public class BaseSceneManager : MonoBehaviour
 {
     protected int nowSceneIndex = GameManager.currentSceneIndex;
-    protected bool isFirst = true;
 
     public void LoadScene(int _sceneIndex)
     {
@@ -25,7 +24,23 @@ public class BaseSceneManager : MonoBehaviour
         }
 
         PlayerManager.playerPause = false;
-        SceneManager.UnloadSceneAsync(nowSceneIndex);
+    }
+
+    public void UnloadScene(int _sceneIndex)
+    {
+        StartCoroutine(UnloadScenes(_sceneIndex));
+    }
+
+    public IEnumerator UnloadScenes(int sceneIndex)
+    {
+        AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(sceneIndex);
+
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+
+        GameManager.isSceneChangeable = true;
     }
 
     public static AsyncOperation ReloadScene()

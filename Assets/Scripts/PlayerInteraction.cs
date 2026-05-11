@@ -14,7 +14,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Spike"))
+        if (collision.gameObject.CompareTag("Spike") || collision.gameObject.CompareTag("DeadBarrier"))
         {
             _pAnim.Melt();
         }
@@ -26,7 +26,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Monster"))
+        if (collision.CompareTag("Monster"))
         {
             collision.gameObject.SetActive(false);
             _pAnim.Melt();

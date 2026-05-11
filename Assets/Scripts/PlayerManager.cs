@@ -9,7 +9,7 @@ public class PlayerManager : MonoBehaviour
     private Rigidbody2D _rigid;
     private CapsuleCollider2D _collider2D;
 
-    public static Vector2 spawnPoint = Vector2.zero;
+    public static Vector2 spawnPoint = new Vector2(-12f, -5.13f);
     public static bool isPlayerTouchSpawnPoint = false;
     public static bool playerPause = false;
 
