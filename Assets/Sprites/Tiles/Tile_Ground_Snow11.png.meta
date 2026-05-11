@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fb08ea3028686b74ea0fb725ecb29779
+guid: 8a05fc8a526f7b94ebc9da0dfc09aa8d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4687708391897018728
-    second: Tile_Ground_Snow01 1_0
+      213: -6467184069608411445
+    second: Tile_Ground_Snow11_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tile_Ground_Snow01 1_0
+      name: Tile_Ground_Snow11_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 861b3a522f51e0140800000000000000
-      internalID: 4687708391897018728
+      spriteID: bceece17a52ff36a0800000000000000
+      internalID: -6467184069608411445
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tile_Ground_Snow01 1_0: 4687708391897018728
+      Tile_Ground_Snow11_0: -6467184069608411445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
