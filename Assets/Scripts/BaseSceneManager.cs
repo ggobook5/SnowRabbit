@@ -20,5 +20,29 @@ public class BaseSceneManager : MonoBehaviour
         {
             yield return null;
         }
+
+        PlayerManager.playerPause = false;
+    }
+
+    public void UnloadScene(int _sceneIndex)
+    {
+        StartCoroutine(UnloadScenes(_sceneIndex));
+    }
+
+    public IEnumerator UnloadScenes(int sceneIndex)
+    {
+        AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(sceneIndex);
+
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+
+        GameManager.isSceneChangeable = true;
+    }
+
+    public static AsyncOperation ReloadScene()
+    {
+        return SceneManager.LoadSceneAsync(GameManager.currentSceneIndex);
     }
 }

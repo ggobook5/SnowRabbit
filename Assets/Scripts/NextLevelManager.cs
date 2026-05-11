@@ -4,8 +4,9 @@ public class NextLevelManager : BaseSceneManager
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (GameManager.isSceneChangeable && collision.CompareTag("Player"))
         {
+            GameManager.isSceneChangeable = false;
             LoadScene(nowSceneIndex + 1);
             gameObject.SetActive(false);
         }
