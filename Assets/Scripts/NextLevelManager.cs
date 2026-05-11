@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class NextLevelManager : BaseSceneManager
@@ -9,6 +8,7 @@ public class NextLevelManager : BaseSceneManager
         {
             GameManager.isSceneChangeable = false;
             LoadScene(nowSceneIndex + 1);
+            gameObject.SetActive(false);
         }
     }
 }

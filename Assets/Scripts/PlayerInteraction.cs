@@ -28,15 +28,23 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (collision.CompareTag("Monster"))
         {
-            collision.gameObject.SetActive(false);
             _pAnim.Melt();
+            collision.enabled = false;
         }
         
         if (collision.TryGetComponent<SpawnPoint>(out SpawnPoint _spawn))
         {
-            PlayerManager.spawnPoint = _spawn.spawnPos;
-            PlayerManager.isPlayerTouchSpawnPoint = true;
-            collision.enabled = false;
+            _pMove.spawnPoint = _spawn.spawnPos;
+            collision.GetComponent<BoxCollider2D>().enabled = false;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<CinemachineCamera>(out CinemachineCamera _camera))
+        {
+            _camera.Priority = 0;
+            collision.isTrigger = false;
         }
     }
 }
