@@ -1,0 +1,2561 @@
+fileFormatVersion: 2
+guid: a306320c616f53c4f89ba109d8c492e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1835467001715233047
+    second: ef_die_0
+  - first:
+      213: 2327603463563511898
+    second: ef_die_1
+  - first:
+      213: -1284860155825683639
+    second: ef_die_2
+  - first:
+      213: 1943437565343190712
+    second: ef_die_3
+  - first:
+      213: -1680454560025800614
+    second: ef_die_4
+  - first:
+      213: 2534837270322608582
+    second: ef_die_5
+  - first:
+      213: 3398279270886368506
+    second: ef_die_6
+  - first:
+      213: 4968056966866159688
+    second: ef_die_7
+  - first:
+      213: -4222785095413787343
+    second: ef_die_8
+  - first:
+      213: -1605713104687944643
+    second: ef_die_9
+  - first:
+      213: -7074727983321181962
+    second: ef_die_10
+  - first:
+      213: -2140068730697091036
+    second: ef_die_11
+  - first:
+      213: -2788909380393320516
+    second: ef_die_12
+  - first:
+      213: 4611745150604460577
+    second: ef_die_13
+  - first:
+      213: -503128739167565469
+    second: ef_die_14
+  - first:
+      213: 8713051038536647703
+    second: ef_die_15
+  - first:
+      213: 6618406771491316312
+    second: ef_die_16
+  - first:
+      213: -4475651114267449800
+    second: ef_die_17
+  - first:
+      213: 2769608446307188741
+    second: ef_die_18
+  - first:
+      213: -4375250370232762290
+    second: ef_die_19
+  - first:
+      213: 2306898452950299148
+    second: ef_die_20
+  - first:
+      213: -4629768431547413543
+    second: ef_die_21
+  - first:
+      213: 791131068660808576
+    second: ef_die_22
+  - first:
+      213: 5171812065955947539
+    second: ef_die_23
+  - first:
+      213: -1555259761195165870
+    second: ef_die_24
+  - first:
+      213: 3937148690020799378
+    second: ef_die_25
+  - first:
+      213: -2124088307290433258
+    second: ef_die_26
+  - first:
+      213: 5403460660253863578
+    second: ef_die_27
+  - first:
+      213: 7630685832885668870
+    second: ef_die_28
+  - first:
+      213: 1718676488847795040
+    second: ef_die_29
+  - first:
+      213: 440956633568096815
+    second: ef_die_30
+  - first:
+      213: 3106240311992985960
+    second: ef_die_31
+  - first:
+      213: -5954436065713795484
+    second: ef_die_32
+  - first:
+      213: 2488638316529369790
+    second: ef_die_33
+  - first:
+      213: 4282969492948353817
+    second: ef_die_34
+  - first:
+      213: -4230060736441763155
+    second: ef_die_35
+  - first:
+      213: -1431438416982549316
+    second: ef_die_36
+  - first:
+      213: -5614207134968754821
+    second: ef_die_37
+  - first:
+      213: 329762292400464133
+    second: ef_die_38
+  - first:
+      213: 9020073617789170126
+    second: ef_die_39
+  - first:
+      213: 2802088524161969962
+    second: ef_die_40
+  - first:
+      213: -3489356737228882302
+    second: ef_die_41
+  - first:
+      213: -1555480697218098084
+    second: ef_die_42
+  - first:
+      213: 69762961089789416
+    second: ef_die_43
+  - first:
+      213: 7333029723682194128
+    second: ef_die_44
+  - first:
+      213: -2159708460242822856
+    second: ef_die_45
+  - first:
+      213: 7100092064538635591
+    second: ef_die_46
+  - first:
+      213: 2310941180397202690
+    second: ef_die_47
+  - first:
+      213: -3279466789627539972
+    second: ef_die_48
+  - first:
+      213: -4854043384717630775
+    second: ef_die_49
+  - first:
+      213: -5443405275619286284
+    second: ef_die_50
+  - first:
+      213: -8720977889331517882
+    second: ef_die_51
+  - first:
+      213: -3733311592708620671
+    second: ef_die_52
+  - first:
+      213: 5320769714760020775
+    second: ef_die_53
+  - first:
+      213: 4547093227352663785
+    second: ef_die_54
+  - first:
+      213: -8291710706927043383
+    second: ef_die_55
+  - first:
+      213: -7690309445164411716
+    second: ef_die_56
+  - first:
+      213: 7157812995287338023
+    second: ef_die_57
+  - first:
+      213: 1705804351230365567
+    second: ef_die_58
+  - first:
+      213: -5546918230789258580
+    second: ef_die_59
+  - first:
+      213: 8525142599235143595
+    second: ef_die_60
+  - first:
+      213: -805456107374750264
+    second: ef_die_61
+  - first:
+      213: 7870385872248134252
+    second: ef_die_62
+  - first:
+      213: 362586735903324795
+    second: ef_die_63
+  - first:
+      213: 209251666105245079
+    second: ef_die_64
+  - first:
+      213: -5230431337487263341
+    second: ef_die_65
+  - first:
+      213: -1546826650634471248
+    second: ef_die_66
+  - first:
+      213: -6163191375199698302
+    second: ef_die_67
+  - first:
+      213: -4742594263890754037
+    second: ef_die_68
+  - first:
+      213: 1749304949978874920
+    second: ef_die_69
+  - first:
+      213: 7022113217007179524
+    second: ef_die_70
+  - first:
+      213: 4388608986858046905
+    second: ef_die_71
+  - first:
+      213: 2939052172767850653
+    second: ef_die_72
+  - first:
+      213: -1509037987482508062
+    second: ef_die_73
+  - first:
+      213: -1487746654862325764
+    second: ef_die_74
+  - first:
+      213: 6050712372582111139
+    second: ef_die_75
+  - first:
+      213: 6915309802414352770
+    second: ef_die_76
+  - first:
+      213: -8246487888841913839
+    second: ef_die_77
+  - first:
+      213: 6411808983776279302
+    second: ef_die_78
+  - first:
+      213: 5433640569695041979
+    second: ef_die_79
+  - first:
+      213: 4670194097120663449
+    second: ef_die_80
+  - first:
+      213: -4968138105072154235
+    second: ef_die_81
+  - first:
+      213: -7126109113208585000
+    second: ef_die_82
+  - first:
+      213: -2718410243592538692
+    second: ef_die_83
+  - first:
+      213: -2654393825588230626
+    second: ef_die_84
+  - first:
+      213: 5220272587381497560
+    second: ef_die_85
+  - first:
+      213: 1469408718673034213
+    second: ef_die_86
+  - first:
+      213: 4470817296485215356
+    second: ef_die_87
+  - first:
+      213: -562978444800370915
+    second: ef_die_88
+  - first:
+      213: 3670904226837317978
+    second: ef_die_89
+  - first:
+      213: -3162677388325675116
+    second: ef_die_90
+  - first:
+      213: -8052645631486196602
+    second: ef_die_91
+  - first:
+      213: -7260155858903196839
+    second: ef_die_92
+  - first:
+      213: 4786676013731152106
+    second: ef_die_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ef_die_0
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 889
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711103a6383e87910800000000000000
+      internalID: 1835467001715233047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_1
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1029
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a580ca7940f4d4020800000000000000
+      internalID: 2327603463563511898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 899
+        width: 52
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94305f9ee724b2ee0800000000000000
+      internalID: -1284860155825683639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_3
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 839
+        width: 392
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be4e6d3b2a78fa10800000000000000
+      internalID: 1943437565343190712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_4
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1009
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a501a782b73dda8e0800000000000000
+      internalID: -1680454560025800614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_5
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 929
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9fff4311d8d2320800000000000000
+      internalID: 2534837270322608582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_6
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 989
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af461c4fdfc192f20800000000000000
+      internalID: 3398279270886368506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_7
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 939
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84846fd4d7512f440800000000000000
+      internalID: 4968056966866159688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_8
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 949
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1351c093457a565c0800000000000000
+      internalID: -4222785095413787343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_9
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 959
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ca2ef407c57b9e0800000000000000
+      internalID: -1605713104687944643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_10
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 929
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f010a7f16481dd90800000000000000
+      internalID: -7074727983321181962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_11
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 909
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428f0e7f3d2fc42e0800000000000000
+      internalID: -2140068730697091036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_12
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 889
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfb6eed1bdcb49d0800000000000000
+      internalID: -2788909380393320516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_13
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 519
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122c868c7c5300040800000000000000
+      internalID: 4611745150604460577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_14
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 539
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36980a1d3178409f0800000000000000
+      internalID: -503128739167565469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_15
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 449
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71443dd71c9fae870800000000000000
+      internalID: 8713051038536647703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_16
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 469
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852a7c194ed49db50800000000000000
+      internalID: 6618406771491316312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_17
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 489
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836e18b460b43e1c0800000000000000
+      internalID: -4475651114267449800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_18
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 419
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500cf093530af6620800000000000000
+      internalID: 2769608446307188741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_19
+      rect:
+        serializedVersion: 2
+        x: 3379
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4041e628fcf743c0800000000000000
+      internalID: -4375250370232762290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_20
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 459
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c023005abefb30020800000000000000
+      internalID: 2306898452950299148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_21
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 209
+        width: 262
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db8c4d1422cfbfb0800000000000000
+      internalID: -4629768431547413543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_22
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 379
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b7d4ee389aafa00800000000000000
+      internalID: 791131068660808576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_23
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 399
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314226c2ca7f5c740800000000000000
+      internalID: 5171812065955947539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_24
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 409
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257d080cc7b9a6ae0800000000000000
+      internalID: -1555259761195165870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_25
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 419
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2939598afdf83a630800000000000000
+      internalID: 3937148690020799378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_26
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 419
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619946c30f8b582e0800000000000000
+      internalID: -2124088307290433258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_27
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 429
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eaa3c77d2fcfa40800000000000000
+      internalID: 5403460660253863578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_28
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 429
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c81cdf554a5e960800000000000000
+      internalID: 7630685832885668870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_29
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 429
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063a6912927f9d710800000000000000
+      internalID: 1718676488847795040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_30
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 379
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22bd21d8b79e1600800000000000000
+      internalID: 440956633568096815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_31
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 359
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869275f2b159b1b20800000000000000
+      internalID: 3106240311992985960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_32
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 389
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46eca5932f79d5da0800000000000000
+      internalID: -5954436065713795484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_33
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 399
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2c82f0d5b698220800000000000000
+      internalID: 2488638316529369790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_34
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 409
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913850bcf0a207b30800000000000000
+      internalID: 4282969492948353817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_35
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 379
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daabf0a0c2ecb45c0800000000000000
+      internalID: -4230060736441763155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_36
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 379
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc58e50852822ce0800000000000000
+      internalID: -1431438416982549316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_37
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 369
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d49b82b545612b0800000000000000
+      internalID: -5614207134968754821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_38
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 379
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50129dace0d839400800000000000000
+      internalID: 329762292400464133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_39
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 389
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1323c3a2dbd2d70800000000000000
+      internalID: 9020073617789170126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_40
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 289
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f6fd7aaa403e620800000000000000
+      internalID: 2802088524161969962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_41
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 309
+        width: 92
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e3bdee880539fc0800000000000000
+      internalID: -3489356737228882302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_42
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 359
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c96531c82d96ae0800000000000000
+      internalID: -1555480697218098084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_43
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 289
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed7c322b09d7f000800000000000000
+      internalID: 69762961089789416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_44
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 319
+        width: 12
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2457f7ea724c560800000000000000
+      internalID: 7333029723682194128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_45
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 349
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83912d8199c2702e0800000000000000
+      internalID: -2159708460242822856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_46
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 329
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d25636d18988260800000000000000
+      internalID: 7100092064538635591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_47
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 349
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20da56a72cc121020800000000000000
+      internalID: 2310941180397202690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_48
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 349
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd4f87845efc72d0800000000000000
+      internalID: -3279466789627539972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_49
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 359
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c222996249f2acb0800000000000000
+      internalID: -4854043384717630775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_50
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 299
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2a9320eb32574b0800000000000000
+      internalID: -5443405275619286284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_51
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 329
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646eb5cb0dcd8f680800000000000000
+      internalID: -8720977889331517882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_52
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 319
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e31c8e2ec903cc0800000000000000
+      internalID: -3733311592708620671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_53
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 299
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7237deb6ddb27d940800000000000000
+      internalID: 5320769714760020775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_54
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6a0f0e2358a1f30800000000000000
+      internalID: 4547093227352663785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_55
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 339
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc7f4d1b0dedec80800000000000000
+      internalID: -8291710706927043383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_56
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 339
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4d42cfd48864590800000000000000
+      internalID: -7690309445164411716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_57
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 309
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cc6c8def8a55360800000000000000
+      internalID: 7157812995287338023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_58
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 319
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fc66b050c3ca710800000000000000
+      internalID: 1705804351230365567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_59
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 339
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca20ba702436503b0800000000000000
+      internalID: -5546918230789258580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_60
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 329
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba706fe96046f4670800000000000000
+      internalID: 8525142599235143595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_61
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 329
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c552c510f172d4f0800000000000000
+      internalID: -805456107374750264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_62
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 319
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a5a90704a393d60800000000000000
+      internalID: 7870385872248134252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_63
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 319
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a39c917ba280500800000000000000
+      internalID: 362586735903324795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_64
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 319
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d9cda184967e200800000000000000
+      internalID: 209251666105245079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_65
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 309
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399100b1966c967b0800000000000000
+      internalID: -5230431337487263341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_66
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 319
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b833df4b51988ae0800000000000000
+      internalID: -1546826650634471248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_67
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 319
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28288762912f77aa0800000000000000
+      internalID: -6163191375199698302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_68
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 319
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b068cf2f4abee2eb0800000000000000
+      internalID: -4742594263890754037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_69
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 319
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824c2537597c64810800000000000000
+      internalID: 1749304949978874920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_70
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 269
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407d94024ce837160800000000000000
+      internalID: 7022113217007179524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_71
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 319
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5c2c72f9877ec30800000000000000
+      internalID: 4388608986858046905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_72
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 319
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90fa2e116c99c820800000000000000
+      internalID: 2939052172767850653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_73
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 269
+        width: 12
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4e88312f1de0be0800000000000000
+      internalID: -1509037987482508062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_74
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 309
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7c721cc467a5be0800000000000000
+      internalID: -1487746654862325764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_75
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 319
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a751d548d278f350800000000000000
+      internalID: 6050712372582111139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_76
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 309
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2892fac50ad18ff50800000000000000
+      internalID: 6915309802414352770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_77
+      rect:
+        serializedVersion: 2
+        x: 4379
+        y: 309
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a4405f4f69e8d80800000000000000
+      internalID: -8246487888841913839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_78
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bb4adac425bf850800000000000000
+      internalID: 6411808983776279302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_79
+      rect:
+        serializedVersion: 2
+        x: 3589
+        y: 279
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9f2d93f4b286b40800000000000000
+      internalID: 5433640569695041979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_80
+      rect:
+        serializedVersion: 2
+        x: 4239
+        y: 289
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997d00f99ccdfc040800000000000000
+      internalID: 4670194097120663449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_81
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 239
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589871c37b0ad0bb0800000000000000
+      internalID: -4968138105072154235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_82
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 259
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4478c6489fa1d90800000000000000
+      internalID: -7126109113208585000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_83
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 249
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb532e44944464ad0800000000000000
+      internalID: -2718410243592538692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_84
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 179
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16c2d311e2b92bd0800000000000000
+      internalID: -2654393825588230626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_85
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 229
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de55919242227840800000000000000
+      internalID: 5220272587381497560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_86
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 239
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb3e52c173646410800000000000000
+      internalID: 1469408718673034213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_87
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 219
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c6cacc4a88b0e30800000000000000
+      internalID: 4470817296485215356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_88
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 209
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17d8755616ef28f0800000000000000
+      internalID: -562978444800370915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_89
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 159
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a594e1de1fba1f230800000000000000
+      internalID: 3670904226837317978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_90
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f10b10ca9eb14d0800000000000000
+      internalID: -3162677388325675116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_91
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 139
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6840a2186714f3090800000000000000
+      internalID: -8052645631486196602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_92
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b9a1856bebe3b90800000000000000
+      internalID: -7260155858903196839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ef_die_93
+      rect:
+        serializedVersion: 2
+        x: 4179
+        y: 119
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0045d3970bd6240800000000000000
+      internalID: 4786676013731152106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ef_die_0: 1835467001715233047
+      ef_die_1: 2327603463563511898
+      ef_die_10: -7074727983321181962
+      ef_die_11: -2140068730697091036
+      ef_die_12: -2788909380393320516
+      ef_die_13: 4611745150604460577
+      ef_die_14: -503128739167565469
+      ef_die_15: 8713051038536647703
+      ef_die_16: 6618406771491316312
+      ef_die_17: -4475651114267449800
+      ef_die_18: 2769608446307188741
+      ef_die_19: -4375250370232762290
+      ef_die_2: -1284860155825683639
+      ef_die_20: 2306898452950299148
+      ef_die_21: -4629768431547413543
+      ef_die_22: 791131068660808576
+      ef_die_23: 5171812065955947539
+      ef_die_24: -1555259761195165870
+      ef_die_25: 3937148690020799378
+      ef_die_26: -2124088307290433258
+      ef_die_27: 5403460660253863578
+      ef_die_28: 7630685832885668870
+      ef_die_29: 1718676488847795040
+      ef_die_3: 1943437565343190712
+      ef_die_30: 440956633568096815
+      ef_die_31: 3106240311992985960
+      ef_die_32: -5954436065713795484
+      ef_die_33: 2488638316529369790
+      ef_die_34: 4282969492948353817
+      ef_die_35: -4230060736441763155
+      ef_die_36: -1431438416982549316
+      ef_die_37: -5614207134968754821
+      ef_die_38: 329762292400464133
+      ef_die_39: 9020073617789170126
+      ef_die_4: -1680454560025800614
+      ef_die_40: 2802088524161969962
+      ef_die_41: -3489356737228882302
+      ef_die_42: -1555480697218098084
+      ef_die_43: 69762961089789416
+      ef_die_44: 7333029723682194128
+      ef_die_45: -2159708460242822856
+      ef_die_46: 7100092064538635591
+      ef_die_47: 2310941180397202690
+      ef_die_48: -3279466789627539972
+      ef_die_49: -4854043384717630775
+      ef_die_5: 2534837270322608582
+      ef_die_50: -5443405275619286284
+      ef_die_51: -8720977889331517882
+      ef_die_52: -3733311592708620671
+      ef_die_53: 5320769714760020775
+      ef_die_54: 4547093227352663785
+      ef_die_55: -8291710706927043383
+      ef_die_56: -7690309445164411716
+      ef_die_57: 7157812995287338023
+      ef_die_58: 1705804351230365567
+      ef_die_59: -5546918230789258580
+      ef_die_6: 3398279270886368506
+      ef_die_60: 8525142599235143595
+      ef_die_61: -805456107374750264
+      ef_die_62: 7870385872248134252
+      ef_die_63: 362586735903324795
+      ef_die_64: 209251666105245079
+      ef_die_65: -5230431337487263341
+      ef_die_66: -1546826650634471248
+      ef_die_67: -6163191375199698302
+      ef_die_68: -4742594263890754037
+      ef_die_69: 1749304949978874920
+      ef_die_7: 4968056966866159688
+      ef_die_70: 7022113217007179524
+      ef_die_71: 4388608986858046905
+      ef_die_72: 2939052172767850653
+      ef_die_73: -1509037987482508062
+      ef_die_74: -1487746654862325764
+      ef_die_75: 6050712372582111139
+      ef_die_76: 6915309802414352770
+      ef_die_77: -8246487888841913839
+      ef_die_78: 6411808983776279302
+      ef_die_79: 5433640569695041979
+      ef_die_8: -4222785095413787343
+      ef_die_80: 4670194097120663449
+      ef_die_81: -4968138105072154235
+      ef_die_82: -7126109113208585000
+      ef_die_83: -2718410243592538692
+      ef_die_84: -2654393825588230626
+      ef_die_85: 5220272587381497560
+      ef_die_86: 1469408718673034213
+      ef_die_87: 4470817296485215356
+      ef_die_88: -562978444800370915
+      ef_die_89: 3670904226837317978
+      ef_die_9: -1605713104687944643
+      ef_die_90: -3162677388325675116
+      ef_die_91: -8052645631486196602
+      ef_die_92: -7260155858903196839
+      ef_die_93: 4786676013731152106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
