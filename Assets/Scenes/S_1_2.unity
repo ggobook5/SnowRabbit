@@ -220,7 +220,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1294673971270690314, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.05
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1294673971270690314, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_LocalScale.y
@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1294673971270690314, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.5
+      value: 9.2
       objectReference: {fileID: 0}
     - target: {fileID: 1294673971270690314, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_LocalPosition.y
@@ -268,7 +268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4921688436567248891, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_Size.x
-      value: 0.95
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8385275594594616852, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_Name
@@ -616,7 +616,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1294673971270690314, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.05
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1294673971270690314, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_LocalScale.y
@@ -624,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1294673971270690314, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.5
+      value: 5.8
       objectReference: {fileID: 0}
     - target: {fileID: 1294673971270690314, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_LocalPosition.y
@@ -664,7 +664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4921688436567248891, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_Size.x
-      value: 0.95
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8385275594594616852, guid: 055b135915792424f81abf5133c3d095, type: 3}
       propertyPath: m_Name
