@@ -4,7 +4,12 @@ using UnityEngine.SceneManagement;
 
 public class BaseSceneManager : MonoBehaviour
 {
-    protected int nowSceneIndex = GameManager.currentSceneIndex;
+    protected int nowSceneIndex;
+
+    private void Start()
+    {
+        nowSceneIndex = GameManager.Instance.currentSceneIndex;
+    }
 
     public void LoadScene(int _sceneIndex)
     {
@@ -14,14 +19,14 @@ public class BaseSceneManager : MonoBehaviour
     public IEnumerator LoadScenes(int sceneIndex)
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex, LoadSceneMode.Additive);
-        GameManager.currentSceneIndex = sceneIndex;
+        GameManager.Instance.currentSceneIndex = sceneIndex;
 
         while (!asyncLoad.isDone)
         {
             yield return null;
         }
 
-        PlayerManager.playerPause = false;
+        PlayerManager.Instance.playerPause = false;
     }
 
     public void UnloadScene(int _sceneIndex)
@@ -38,11 +43,11 @@ public class BaseSceneManager : MonoBehaviour
             yield return null;
         }
 
-        GameManager.isSceneChangeable = true;
+        GameManager.Instance.isSceneChangeable = true;
     }
 
     public static AsyncOperation ReloadScene()
     {
-        return SceneManager.LoadSceneAsync(GameManager.currentSceneIndex);
+        return SceneManager.LoadSceneAsync(GameManager.Instance.currentSceneIndex);
     }
 }

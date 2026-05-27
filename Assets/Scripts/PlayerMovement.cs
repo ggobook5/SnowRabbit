@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 public class PlayerMovement: MonoBehaviour
 {
     // Management
-    private static PlayerMovement instance;
     private float _deltaTime;
 
     // Character
@@ -121,22 +120,6 @@ public class PlayerMovement: MonoBehaviour
 
 
 
-    private void Awake()
-    {
-        if (instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-
-        GetComponent<PlayerInput>().enabled = true;
-    }
-
     void Start()
     {
         _rigid = GetComponent<Rigidbody2D>();
@@ -147,7 +130,7 @@ public class PlayerMovement: MonoBehaviour
 
     void Update()
     {
-        if (PlayerManager.playerPause)
+        if (PlayerManager.Instance.playerPause)
         {
             return;
         }
@@ -180,7 +163,7 @@ public class PlayerMovement: MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (PlayerManager.playerPause)
+        if (PlayerManager.Instance.playerPause)
         {
             return;
         }
@@ -221,6 +204,19 @@ public class PlayerMovement: MonoBehaviour
         bool wallCheckTop = Physics2D.Raycast(wallCheckPoint, wallCheckDirection, wallCheckDistance, layerWall);
 
         isWall = wallCheckTop && wallCheckCenter && !isGround;
+    }
+
+    private void WallStop()
+    {
+        wallStopTime += _deltaTime;
+        _rigid.gravityScale = 0f;
+
+        if (wallStopTime >= maxWallStopTime || !isWall)
+        {
+            isWallStop = false;
+            _rigid.gravityScale = 1f;
+            wallStopTime = 0f;
+        }
     }
 
     public void OnMove(InputValue value)
@@ -269,16 +265,8 @@ public class PlayerMovement: MonoBehaviour
         }
     }
 
-    private void WallStop()
+    public void OnInvincibilityMode()
     {
-        wallStopTime += _deltaTime;
-        _rigid.gravityScale = 0f;
-
-        if (wallStopTime >= maxWallStopTime || !isWall)
-        {
-            isWallStop = false;
-            _rigid.gravityScale = 1f;
-            wallStopTime = 0f;
-        }
+        PlayerManager.Instance.debug_setInvincibilityMode = !PlayerManager.Instance.debug_setInvincibilityMode;
     }
 }

@@ -35,6 +35,8 @@ public class PlayerAnimation : MonoBehaviour
 
     public void Melt()
     {
+        if (PlayerManager.Instance.debug_setInvincibilityMode)    return;
+
         _anim.SetTrigger(animIDMelt);
     }
 }
