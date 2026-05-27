@@ -34,7 +34,7 @@ public class PlayerInteraction : MonoBehaviour
         
         if (collision.TryGetComponent<SpawnPoint>(out SpawnPoint _spawn))
         {
-            PlayerManager.spawnPoint = _spawn.spawnPos;
+            PlayerManager.Instance.spawnPoint = _spawn.spawnPos;
             collision.GetComponent<BoxCollider2D>().enabled = false;
         }
     }

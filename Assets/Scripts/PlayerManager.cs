@@ -5,13 +5,16 @@ using UnityEngine.InputSystem;
 public class PlayerManager : MonoBehaviour
 {
     private static PlayerManager instance;
+    public static PlayerManager Instance { get { return instance; } }
 
     private Rigidbody2D _rigid;
     private CapsuleCollider2D _collider2D;
 
-    public static Vector2 spawnPoint = new Vector2(-12f, -5.13f);
-    public static bool isPlayerTouchSpawnPoint = false;
-    public static bool playerPause = false;
+    public Vector2 spawnPoint = new Vector2(-12f, -5.13f);
+    public bool isPlayerTouchSpawnPoint = false;
+    public bool playerPause = false;
+
+    public bool debug_setInvincibilityMode = false;
 
     private void Awake()
     {
