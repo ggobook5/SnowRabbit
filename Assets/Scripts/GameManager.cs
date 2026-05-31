@@ -5,21 +5,21 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
     public static GameManager Instance { get { return instance; } }
 
-    public int currentSceneIndex = 0;
+    public int currentSceneIndex;
     public Vector2 playerSpawnPoint = Vector2.zero;
     public bool isSceneChangeable = true;
 
     private void Awake()
     {
-        if (instance != null)
+        if (instance.Equals(null))
         {
-            Destroy(gameObject);
-            return;
+            instance = this;
+            currentSceneIndex = 0;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
+            Destroy(gameObject);
         }
     }
 }

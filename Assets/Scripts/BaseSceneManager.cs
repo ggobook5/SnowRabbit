@@ -4,39 +4,33 @@ using UnityEngine.SceneManagement;
 
 public class BaseSceneManager : MonoBehaviour
 {
-    protected int nowSceneIndex;
-
-    private void Start()
+    protected void LoadScene(int sceneIndex)
     {
-        nowSceneIndex = GameManager.Instance.currentSceneIndex;
+        StartCoroutine(LoadScenes(sceneIndex));
     }
 
-    public void LoadScene(int _sceneIndex)
+    private IEnumerator LoadScenes(int _sceneIndex)
     {
-        StartCoroutine(LoadScenes(_sceneIndex));
-    }
-
-    public IEnumerator LoadScenes(int sceneIndex)
-    {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex, LoadSceneMode.Additive);
-        GameManager.Instance.currentSceneIndex = sceneIndex;
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(_sceneIndex, LoadSceneMode.Additive);
 
         while (!asyncLoad.isDone)
         {
             yield return null;
         }
 
+        GameManager.Instance.currentSceneIndex = _sceneIndex;
         PlayerManager.Instance.playerPause = false;
+        yield break;
     }
 
-    public void UnloadScene(int _sceneIndex)
+    protected void UnloadScene(int sceneIndex)
     {
-        StartCoroutine(UnloadScenes(_sceneIndex));
+        StartCoroutine(UnloadScenes(sceneIndex));
     }
 
-    public IEnumerator UnloadScenes(int sceneIndex)
+    private IEnumerator UnloadScenes(int _sceneIndex)
     {
-        AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(sceneIndex);
+        AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(_sceneIndex);
 
         while (!asyncLoad.isDone)
         {
@@ -44,6 +38,8 @@ public class BaseSceneManager : MonoBehaviour
         }
 
         GameManager.Instance.isSceneChangeable = true;
+
+        yield break;
     }
 
     public static AsyncOperation ReloadScene()

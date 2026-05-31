@@ -16,10 +16,10 @@ public class MonsterAI_FlyingMonster : MonoBehaviour
 
     void Update()
     {
-        if (targetPosition != null)
+        if (!targetPosition.Equals(null))
         {
             Collider2D target = Physics2D.OverlapBox(searchPosition, searchScope, layerPlayer);
-            if (target != null)
+            if (!target.Equals(null))
             {
                 targetPosition = target.transform.position;
             }

@@ -18,9 +18,9 @@ public class PlayerInteraction : MonoBehaviour
         {
             _pAnim.Melt();
         }
-        else if (collision.gameObject.CompareTag("Wall") && _pMove.isWall)
+        else if (collision.gameObject.CompareTag("Wall") && _pMove.IsWall)
         {
-            _pMove.isWallStop = true;
+            _pMove.IsWallStop = true;
         }
     }
 

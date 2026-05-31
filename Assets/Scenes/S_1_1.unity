@@ -304,8 +304,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240511920}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.85682, y: 0.92787, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -785,6 +785,66 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1994642869}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &603749149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603749152}
+  - component: {fileID: 603749151}
+  - component: {fileID: 603749150}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &603749150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603749149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a59caf02a1c3842b12740144f9cec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  playerVFXPools: []
+--- !u!114 &603749151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603749149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6db1e15381009459c5838d4f09f28a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
+  defaultPoolSize: 5
+--- !u!4 &603749152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603749149}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1832831165}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &692277435
 GameObject:
@@ -1520,7 +1580,6 @@ MonoBehaviour:
   chargingModifyX: 0.4
   gripModifyY: 0.4
   maxStopTime: 5
-  stopTime: 0
   defaultJumpForce: 13
   maxChargeMultiplier: 2
   maxChargeTime: 1.5
@@ -1777,7 +1836,7 @@ Transform:
   m_GameObject: {fileID: 1347220413}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13, y: -5.13, z: 0}
+  m_LocalPosition: {x: -12, y: -5.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1798,7 +1857,7 @@ MonoBehaviour:
   spawnPoint: {x: -12, y: -5.13}
   isPlayerTouchSpawnPoint: 0
   playerPause: 0
-  debug_setInvincibilityMode: 0
+  debug_setInvincibilityMode: 1
 --- !u!114 &1347220425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,11 +1870,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 196e72a32a6b637449435efd49db0b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerVFX
-  BodyParticleVFX: {fileID: 4613464825874228618, guid: 20d8372ed451b464dac753153b738504, type: 3}
-  ChargeJumpVFX: {fileID: 6000281829832294050, guid: 038ba2929927cad418e1cb4a2b67fb46, type: 3}
-  DieVFX: {fileID: 6203632238825988556, guid: 2442aad11a6a490449b45f74e0fe4558, type: 3}
-  JumpVFX: {fileID: 6203632238825988556, guid: d2d0fc5a1e05a2f44b7f28f0e0cb8d13, type: 3}
-  RespawnVFX: {fileID: 5112403345868107898, guid: cd960a05393244c46abebeb10d461e01, type: 3}
+  bodyParticleVFXPrefab: {fileID: 4613464825874228618, guid: 20d8372ed451b464dac753153b738504, type: 3}
+  bodyParticleVFXPosition: {x: 0, y: -0.87, z: 0}
+  dieVFXPrefab: {fileID: 6203632238825988556, guid: 2442aad11a6a490449b45f74e0fe4558, type: 3}
+  dieVFXPosition: {x: 0, y: 0, z: 0}
+  jumpVFXPrefab: {fileID: 6203632238825988556, guid: d2d0fc5a1e05a2f44b7f28f0e0cb8d13, type: 3}
+  jumpVFXPosition: {x: 0, y: -0.7, z: 0}
+  kickVFXPrefab: {fileID: 7941962959608654616, guid: 8721e296e67c98f45b1af8c09899f3be, type: 3}
+  kickVFXPosition: {x: 0, y: -0.4, z: 0}
+  meltVFXPrefab: {fileID: 6203632238825988556, guid: b261aee3daad0b042a77ce6ee30f9d2f, type: 3}
+  meltVFXPosition: {x: 0, y: -0.87, z: 0}
+  mushroomJumpVFXPrefab: {fileID: 6000281829832294050, guid: 038ba2929927cad418e1cb4a2b67fb46, type: 3}
+  mushroomJumpVFXPosition: {x: 0, y: -0.3, z: 0}
+  respawnVFXPrefab: {fileID: 5112403345868107898, guid: cd960a05393244c46abebeb10d461e01, type: 3}
+  respawnVFXPosition: {x: 0, y: -0.25, z: 0}
 --- !u!1 &1382601010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,6 +2462,51 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1832831164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1832831165}
+  - component: {fileID: 1832831166}
+  m_Layer: 0
+  m_Name: PrewarmPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1832831165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832831164}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.46672, y: 1.88963, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 603749152}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1832831166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832831164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a59caf02a1c3842b12740144f9cec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PrewarmPool
+  playerVFXPools: []
 --- !u!1 &1861583939
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,7 +2669,7 @@ MonoBehaviour:
     Enabled: 0
     DefaultMode: 2
   DefaultBlend:
-    Style: 0
+    Style: 2
     Time: 2
     CustomCurve:
       serializedVersion: 2
@@ -4945,7 +5058,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &2089047058
 MonoBehaviour:
@@ -4971,7 +5084,7 @@ Transform:
   m_GameObject: {fileID: 2089047057}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.85682, y: 0.92787, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5062,6 +5175,7 @@ SceneRoots:
   - {fileID: 1861583942}
   - {fileID: 1347220423}
   - {fileID: 2089047059}
+  - {fileID: 603749152}
   - {fileID: 1661583846}
   - {fileID: 1994642869}
   - {fileID: 225864876}

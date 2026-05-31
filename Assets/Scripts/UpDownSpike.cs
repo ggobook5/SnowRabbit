@@ -11,10 +11,12 @@ public class UpDownSpike : MonoBehaviour
     private bool isUp = true;
     private float timeCount = 0f;
 
+    private WaitForSecondsRealtime wait;
+
     private void Start()
     {
         defaultY = transform.position.y;
-
+        wait = new WaitForSecondsRealtime(waitTime);
         StartCoroutine(UpDown());
     }
 
@@ -42,9 +44,9 @@ public class UpDownSpike : MonoBehaviour
 
             transform.position = new Vector2(transform.position.x, defaultY + targetY);
 
-            if (targetY == 0f || targetY == moveDistance)
+            if (targetY.Equals(0f) || targetY.Equals(moveDistance))
             {
-                yield return new WaitForSeconds(waitTime);
+                yield return wait;
 
                 timeCount = 0;
                 isUp = !isUp;

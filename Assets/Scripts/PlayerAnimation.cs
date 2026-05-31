@@ -9,6 +9,7 @@ public class PlayerAnimation : MonoBehaviour
     private int animIDSpeedX;
     private int animIDSpeedY;
     private int animIDGrounded;
+    private int animIDWalled;
     private int animIDCharge;
     private int animIDMelt;
 
@@ -21,6 +22,7 @@ public class PlayerAnimation : MonoBehaviour
         animIDSpeedX = Animator.StringToHash("SpeedX");
         animIDSpeedY = Animator.StringToHash("SpeedY");
         animIDGrounded = Animator.StringToHash("Grounded");
+        animIDWalled = Animator.StringToHash("Walled");
         animIDCharge = Animator.StringToHash("Charge");
         animIDMelt = Animator.StringToHash("Melt");
     }
@@ -29,8 +31,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         _anim.SetFloat(animIDSpeedX, _rigid.linearVelocityX);
         _anim.SetFloat(animIDSpeedY, _rigid.linearVelocityY);
-        _anim.SetBool(animIDGrounded, _pMove.isGround);
-        _anim.SetBool(animIDCharge, _pMove.isJumpCharging);
+        _anim.SetBool(animIDGrounded, _pMove.IsGround);
+        _anim.SetBool(animIDWalled, _pMove.IsWall);
+        _anim.SetBool(animIDCharge, _pMove.IsJumpCharging);
     }
 
     public void Melt()
