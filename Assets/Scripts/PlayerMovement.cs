@@ -15,108 +15,139 @@ public class PlayerMovement: MonoBehaviour
 
     // Movement
     [Header("Movement")]
+    [SerializeField]
     [Tooltip("Move speed of the character")]
-    [Min(0f)] public float moveSpeed = 10f;
+    [Min(0f)] private float moveSpeed = 10f;
 
+    [SerializeField]
     [Tooltip("Magnification of move speed when the character is charging the jump")]
-    [Range(0f, 1f)] public float chargingModifyX = 0.4f;
+    [Range(0f, 1f)] private float chargingModifyX = 0.4f;
 
+    [SerializeField]
     [Tooltip("Magnification of falling speed when the character is attached to the climbing wall")]
-    [Range(0f, 1f)] public float gripModifyY = 0.4f;
+    [Range(0f, 1f)] private float gripModifyY = 0.4f;
 
     [Space(7)]
+    [SerializeField]
     [Tooltip("Time when the character can be stopped (in seconds)")]
-    [Min(0f)] public float maxStopTime = 5f;
+    [Min(0f)] private float maxStopTime = 5f;
 
-    [Tooltip("Time the character stopped (in seconds)")]
-    public float stopTime = 0f;
-
+    private float stopTime = 0f;
     private Vector2 inputDirection;
 
 
     // Jump
     [Header("Jump")]
+    [SerializeField]
     [Tooltip("Default jump force of the character")]
-    [Min(0f)] public float defaultJumpForce = 13f;
+    [Min(0f)] private float defaultJumpForce = 13f;
 
+    [SerializeField]
     [Tooltip("Magnification of jump force at maximum charge")]
-    [Min(0f)] public float maxChargeMultiplier = 2f;
+    [Min(0f)] private float maxChargeMultiplier = 2f;
 
+    [SerializeField]
     [Tooltip("Charge time required to reach maximum jump force (in seconds)")]
-    [Min(0f)] public float maxChargeTime = 1.5f;
+    [Min(0f)] private float maxChargeTime = 1.5f;
 
+    [SerializeField]
     [Tooltip("Time the character was charging (in seconds) (Maximum value: maxChargeTime)")]
-    public float jumpChargeTime = 0f;
+    private float jumpChargeTime = 0f;
 
+    [SerializeField]
     [Tooltip("Whether the character is charging the jump or not")]
-    public bool isJumpCharging = false;
+    private bool isJumpCharging = false;
+    public bool IsJumpCharging { get { return isJumpCharging; } }
 
     [Space(7)]
+    [SerializeField]
     [Tooltip("Wall jump force of the character")]
-    [Min(0f)] public float wallJumpForce = 30f;
+    [Min(0f)] private float wallJumpForce = 30f;
 
+    [SerializeField]
     [Tooltip("Whether the character does wall jump or not")]
-    public bool isWallJump = false;
+    private bool isWallJump = false;
+    public bool IsWallJump { get { return isWallJump; } }
 
     [Space(7)]
+    [SerializeField]
     [Tooltip("Jump force of the character, when character is on the mushroom")]
-    [Min(0f)] public float mushroomJumpForce = 30f;
+    [Min(0f)] private float mushroomJumpForce = 30f;
 
     private InputAction _jumpAction;
 
 
     // Ground Check
     [Header("Ground Check")]
+    [SerializeField]
     [Tooltip("Y position gab from position of the character to the center point of the ground check")]
-    public float groundCheckOffset = -0.7f;
+    private float groundCheckOffset = -0.7f;
 
     [Tooltip("Radius of the ground check.")]
-    [Min(0.00001f)] public float groundCheckRadius = 0.3f;
+    [SerializeField]
+    [Min(0.00001f)] private float groundCheckRadius = 0.3f;
 
     [Space(7)]
+    [SerializeField]
     [Tooltip("Layer the character uses as the ground")]
-    public LayerMask layerGround;
+    private LayerMask layerGround;
 
+    [SerializeField]
     [Tooltip("Whether the character is on the ground or not")]
-    public bool isGround;
+    private bool isGround;
+    public bool IsGround { get { return isGround; } }
 
     [Space(7)]
+    [SerializeField]
     [Tooltip("Layer the character uses as the mushroom")]
-    public LayerMask layerMushroom;
+    private LayerMask layerMushroom;
 
+    [SerializeField]
     [Tooltip("Whether the character is on the mushroom or not")]
-    public bool isMushroom;
+    private bool isMushroom;
+    public bool IsMushroom { get { return isMushroom; } }
 
 
     // Wall Check
     [Header("Wall Check")]
+    [SerializeField]
     [Tooltip("X position gab from position of the character to the start point of the climbing wall check")]
-    public float wallCheckOffsetX = 0.6f;
+    private float wallCheckOffsetX = 0.6f;
 
+    [SerializeField]
     [Tooltip("Y position gab from position of the character to the start point of the climbing wall check")]
-    public float wallCheckOffsetY = -0.265f;
+    private float wallCheckOffsetY = -0.265f;
 
+    [SerializeField]
     [Tooltip("Y position gab from the center point to the top point of the character")]
-    public float wallCheckPointOffset = 0.6f;
+    private float wallCheckPointOffset = 0.6f;
 
+    [SerializeField]
     [Tooltip("Distance to detect the climbing wall")]
-    [Min(0f)] public float wallCheckDistance = 0.1f;
+    [Min(0f)] private float wallCheckDistance = 0.1f;
 
+    [SerializeField]
     [Tooltip("Layer the character uses as the climbing wall")]
-    public LayerMask layerWall;
+    private LayerMask layerWall;
 
+    [SerializeField]
     [Tooltip("Whether the character is on the climbing wall or not")]
-    public bool isWall;
+    private bool isWall;
+    public bool IsWall { get { return isWall; } }
 
     [Space(7)]
+    [SerializeField]
     [Tooltip("Time when the character can be stopped on the climbing wall (in seconds)")]
-    [Min(0f)] public float maxWallStopTime = 0.5f;
+    [Min(0f)] private float maxWallStopTime = 0.5f;
 
+    [SerializeField]
     [Tooltip("Time the character stopped on the climbing wall (in seconds) (Maximum value: maxWallStopTime)")]
-    public float wallStopTime = 0f;
+    private float wallStopTime = 0f;
 
+    [SerializeField]
     [Tooltip("Whether the character is stopped on the climbing wall or not")]
-    public bool isWallStop;
+    private bool isWallStop;
+    public bool IsWallStop { set { isWallStop = value; } }
 
 
 
@@ -130,14 +161,11 @@ public class PlayerMovement: MonoBehaviour
 
     void Update()
     {
-        if (PlayerManager.Instance.playerPause)
-        {
-            return;
-        }
+        if (PlayerManager.Instance.playerPause)     return;
 
         _deltaTime = Time.deltaTime;
 
-        if (_rigid.linearVelocity == Vector2.zero)
+        if (_rigid.linearVelocity.Equals(Vector2.zero))
         {
             stopTime += _deltaTime;
             if (stopTime >= maxStopTime)
@@ -163,15 +191,13 @@ public class PlayerMovement: MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (PlayerManager.Instance.playerPause)
-        {
-            return;
-        }
+        if (PlayerManager.Instance.playerPause)     return;
 
-        _render.flipX = (inputDirection.x == 0f) ? _render.flipX : (inputDirection.x < 0f);
+        _render.flipX = (inputDirection.x.Equals(0f)) ? _render.flipX : (inputDirection.x < 0f);
 
         if (isWallJump)
         {
+            PlayerVFX.Instance.KickVFX();
             _rigid.gravityScale = 1f;
             _rigid.linearVelocity = Vector2.zero;
             _rigid.linearVelocity = new Vector2(-inputDirection.x * wallJumpForce, wallJumpForce);
@@ -190,12 +216,18 @@ public class PlayerMovement: MonoBehaviour
     private void GroundCheck()
     {
         Vector2 groundCheckPoint = new Vector2(transform.position.x, transform.position.y + groundCheckOffset);
-        isGround = Physics2D.OverlapCircle(groundCheckPoint, groundCheckRadius, layerGround);
         isMushroom = Physics2D.OverlapCircle(groundCheckPoint, groundCheckRadius, layerMushroom);
+        isGround = !isMushroom && Physics2D.OverlapCircle(groundCheckPoint, groundCheckRadius, layerGround);
     }
 
     private void WallCheck()
     {
+        if (isGround) 
+        {
+            isWall = false;
+            return;
+        }
+
         Vector2 wallCheckDirection = Vector2.right * inputDirection.x;
 
         Vector2 wallCheckPoint = new Vector2(transform.position.x + (wallCheckOffsetX * inputDirection.x), transform.position.y + wallCheckOffsetY);
@@ -203,7 +235,7 @@ public class PlayerMovement: MonoBehaviour
         wallCheckPoint = new Vector2(wallCheckPoint.x, wallCheckPoint.y + wallCheckPointOffset);
         bool wallCheckTop = Physics2D.Raycast(wallCheckPoint, wallCheckDirection, wallCheckDistance, layerWall);
 
-        isWall = wallCheckTop && wallCheckCenter && !isGround;
+        isWall = wallCheckTop && wallCheckCenter;
     }
 
     private void WallStop()
@@ -237,6 +269,7 @@ public class PlayerMovement: MonoBehaviour
             }
             if (_jumpAction.WasReleasedThisFrame())
             {
+                PlayerVFX.Instance.JumpVFX();
                 float chargeRatio = jumpChargeTime / maxChargeTime;
                 float finalJumpForce = defaultJumpForce * Mathf.Lerp(1f, maxChargeMultiplier, chargeRatio);
                 _rigid.linearVelocityY = finalJumpForce;

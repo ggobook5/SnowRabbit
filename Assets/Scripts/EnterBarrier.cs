@@ -13,8 +13,8 @@ public class EnterBarrier : BaseSceneManager
     {
         if (collision.CompareTag("Player"))
         {
+            UnloadScene(GameManager.Instance.currentSceneIndex - 1);
             _box.isTrigger = false;
-            UnloadScene(nowSceneIndex - 1);
         }
     }
 }

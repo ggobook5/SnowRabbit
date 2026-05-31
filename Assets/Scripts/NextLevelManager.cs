@@ -7,8 +7,7 @@ public class NextLevelManager : BaseSceneManager
         if (GameManager.Instance.isSceneChangeable && collision.CompareTag("Player"))
         {
             GameManager.Instance.isSceneChangeable = false;
-            LoadScene(nowSceneIndex + 1);
-            gameObject.SetActive(false);
+            LoadScene(GameManager.Instance.currentSceneIndex + 1);
         }
     }
 }

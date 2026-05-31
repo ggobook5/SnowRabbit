@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class VFXCamera : MonoBehaviour
 {
     public Transform target;
     public float cameraWidth = 17.8f;
