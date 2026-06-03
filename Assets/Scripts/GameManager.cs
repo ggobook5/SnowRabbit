@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance.Equals(null))
+        if (instance == null)
         {
             instance = this;
             currentSceneIndex = 0;

@@ -165,7 +165,7 @@ public class PlayerMovement: MonoBehaviour
 
         _deltaTime = Time.deltaTime;
 
-        if (_rigid.linearVelocity.Equals(Vector2.zero))
+        if (_rigid.linearVelocity == Vector2.zero)
         {
             stopTime += _deltaTime;
             if (stopTime >= maxStopTime)
@@ -193,7 +193,7 @@ public class PlayerMovement: MonoBehaviour
     {
         if (PlayerManager.Instance.playerPause)     return;
 
-        _render.flipX = (inputDirection.x.Equals(0f)) ? _render.flipX : (inputDirection.x < 0f);
+        _render.flipX = (inputDirection.x == 0) ? _render.flipX : (inputDirection.x < 0f);
 
         if (isWallJump)
         {
@@ -209,7 +209,7 @@ public class PlayerMovement: MonoBehaviour
             float moveModifyX = isJumpCharging ? (moveSpeed * chargingModifyX) : moveSpeed;
             float moveModifyY = isWall ? gripModifyY : 1f;
 
-            _rigid.linearVelocity = new Vector2(inputDirection.x * moveModifyX, _rigid.linearVelocity.y * moveModifyY);
+            _rigid.linearVelocity = new Vector2(inputDirection.x * moveModifyX, _rigid.linearVelocityY * moveModifyY);
         }
     }
 

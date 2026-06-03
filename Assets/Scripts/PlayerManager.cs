@@ -1,7 +1,6 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -19,32 +18,18 @@ public class PlayerManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance.Equals(null))
+        if (instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        else
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
-        {
-            Destroy(gameObject);
-        }
 
         GetComponent<PlayerInput>().enabled = true;
-    }
-
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        PlayerVFX.Instance.PlayerVFXReset();
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void Start()

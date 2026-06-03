@@ -12,7 +12,7 @@ public class ObjectPool : MonoBehaviour
 
     private void Awake()
     {
-        if (instance.Equals(null))
+        if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
@@ -28,7 +28,7 @@ public class ObjectPool : MonoBehaviour
     {
         if (!poolDictionary.ContainsKey(prefab))    InitializeNewPool(prefab);
 
-        if (poolDictionary[prefab].Count.Equals(0))     CreateObject(prefab);
+        if (poolDictionary[prefab].Count == 0)     CreateObject(prefab);
 
         GameObject spawnObject = poolDictionary[prefab].Dequeue();
         spawnObject.SetActive(true);
@@ -40,7 +40,7 @@ public class ObjectPool : MonoBehaviour
     {
         poolDictionary[prefab] = new Queue<GameObject>();
 
-        for (int i = 0; i < defaultPoolSize; i++)      CreateObject(prefab);
+        for (int i = 0; i < defaultPoolSize; i++) CreateObject(prefab);
     }
 
     public void InitializeNewPool(GameObject prefab, int poolSize)
@@ -54,7 +54,7 @@ public class ObjectPool : MonoBehaviour
     {
         GameObject newObject = Instantiate(prefab);
 
-        if (newObject.TryGetComponent<PooledObject>(out PooledObject pooledComponent).Equals(null))
+        if (!newObject.TryGetComponent<PooledObject>(out PooledObject pooledComponent))
             pooledComponent = newObject.AddComponent<PooledObject>();
         pooledComponent.OriginalPrefab = prefab;
 
@@ -71,6 +71,8 @@ public class ObjectPool : MonoBehaviour
     {
         yield return new WaitForSeconds(_delay);
         ReturnPool(_returnObject);
+
+        yield break;
     }
 
     private void ReturnPool(GameObject returnObject)
