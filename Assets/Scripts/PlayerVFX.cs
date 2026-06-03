@@ -16,6 +16,7 @@ public class PlayerVFX : MonoBehaviour
     [Header("Die VFX")]
     [SerializeField] private GameObject dieVFXPrefab;
     [SerializeField] private Vector3 dieVFXPosition = Vector3.zero;
+    private GameObject dieVFX;
 
     [Header("Jump VFX")]
     [SerializeField] private GameObject jumpVFXPrefab;
@@ -26,11 +27,11 @@ public class PlayerVFX : MonoBehaviour
     [SerializeField] private GameObject kickVFXPrefab;
     [SerializeField] private Vector3 kickVFXPosition = Vector3.zero;
     private GameObject kickVFX;
-    private Transform kickVFX_C;
 
     [Header("Melt VFX")]
     [SerializeField] private GameObject meltVFXPrefab;
     [SerializeField] private Vector3 meltVFXPosition = Vector3.zero;
+    private GameObject meltVFX;
 
     [Header("Mushroom Jump VFX")]
     [SerializeField] private GameObject mushroomJumpVFXPrefab;
@@ -40,6 +41,7 @@ public class PlayerVFX : MonoBehaviour
     [Header("Respawn VFX")]
     [SerializeField] private GameObject respawnVFXPrefab;
     [SerializeField] private Vector3 respawnVFXPosition = Vector3.zero;
+    private GameObject respawnVFX;
 
     private void Awake()
     {
@@ -52,56 +54,34 @@ public class PlayerVFX : MonoBehaviour
 
         bodyParticleVFX = Instantiate(bodyParticleVFXPrefab, (transform.position + bodyParticleVFXPosition), Quaternion.identity, transform);
 
-        mushroomJumpVFX = Instantiate(mushroomJumpVFX, transform);
+        mushroomJumpVFX = Instantiate(mushroomJumpVFXPrefab, transform);
         mushroomJumpVFX.transform.localPosition = mushroomJumpVFXPosition;
         StartCoroutine(MushroomJumpVFX());
     }
 
-    public void PlayerVFXReset()
-    {
-        jumpVFX = null;
-        jumpVFX = Instantiate(jumpVFXPrefab, (transform.position + jumpVFXPosition), Quaternion.identity);
-        jumpVFX.SetActive(false);
-
-        kickVFX = null;
-        kickVFX = Instantiate(kickVFXPrefab, (transform.position + kickVFXPosition), Quaternion.identity);
-        kickVFX_C = kickVFX.transform.GetChild(1);
-        kickVFX.SetActive(false);
-    }
-
     public void DieVFX()
     {
-        Instantiate(dieVFXPrefab, (transform.position + dieVFXPosition), Quaternion.identity);
+        dieVFX = ObjectPool.Instance.GetObject(dieVFXPrefab);
+        dieVFX.transform.SetPositionAndRotation((transform.position + dieVFXPosition), Quaternion.identity);
     }
 
     public void JumpVFX()
     {
-        if (jumpVFX.Equals(null))    jumpVFX = Instantiate(jumpVFXPrefab, (transform.position + jumpVFXPosition), Quaternion.identity);
-        else
-        {
-            jumpVFX.transform.position = transform.position + jumpVFXPosition;
-            jumpVFX.SetActive(true);
-        }
+        jumpVFX = ObjectPool.Instance.GetObject(jumpVFXPrefab);
+        jumpVFX.transform.SetPositionAndRotation((transform.position + jumpVFXPosition), Quaternion.identity);
     }
 
     public void KickVFX()
     {
-        if (kickVFX.Equals(null))
-        {
-            kickVFX = Instantiate(kickVFXPrefab, (transform.position + kickVFXPosition), Quaternion.identity);
-            kickVFX_C = kickVFX.transform.GetChild(1);
-        }
-        else
-        {
-
-            kickVFX.transform.position = transform.position + kickVFXPosition;
-            kickVFX_C.gameObject.SetActive(true);
-        }
+        kickVFX = ObjectPool.Instance.GetObject(kickVFXPrefab);
+        kickVFX.transform.SetPositionAndRotation((transform.position + kickVFXPosition), Quaternion.Euler(0, 0, 90));
+        ObjectPool.Instance.ReturnObject(kickVFX, 2f);
     }
 
     public void MeltVFX()
     {
-        Instantiate(meltVFXPrefab, (transform.position + meltVFXPosition), Quaternion.identity);
+        meltVFX = ObjectPool.Instance.GetObject(meltVFXPrefab);
+        meltVFX.transform.SetPositionAndRotation((transform.position + meltVFXPosition), Quaternion.identity);
     }
 
     private IEnumerator MushroomJumpVFX()
@@ -118,6 +98,7 @@ public class PlayerVFX : MonoBehaviour
 
     public void RespawnVFX()
     {
-        Instantiate(respawnVFXPrefab, (transform.position + respawnVFXPosition), Quaternion.identity);
+        respawnVFX = ObjectPool.Instance.GetObject(respawnVFXPrefab);
+        respawnVFX.transform.SetPositionAndRotation((transform.position + respawnVFXPosition), Quaternion.identity);
     }
 }

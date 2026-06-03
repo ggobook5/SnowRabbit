@@ -6,7 +6,7 @@ public class PooledObject : MonoBehaviour
     public GameObject OriginalPrefab
     {
         get { return originalPrefab; }
-        set { if (!originalPrefab.Equals(null))     originalPrefab = value; }
+        set { originalPrefab = value; }
     }
 
     private Transform originalTransform;
@@ -20,5 +20,7 @@ public class PooledObject : MonoBehaviour
     {
         transform.SetLocalPositionAndRotation(originalTransform.localPosition, originalTransform.localRotation);
         transform.localScale = originalTransform.localScale;
+
+        if (gameObject.transform != ObjectPool.Instance.transform)      ObjectPool.Instance.ReturnObject(gameObject);
     }
 }
