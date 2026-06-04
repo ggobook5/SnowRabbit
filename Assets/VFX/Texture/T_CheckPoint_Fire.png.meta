@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: a20592ff28855cd47890a9a2146867ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 603554905109488712
+    second: T_CheckPoint_Fire_0
+  - first:
+      213: -6822165842418199914
+    second: T_CheckPoint_Fire_1
+  - first:
+      213: -8785492844172913610
+    second: T_CheckPoint_Fire_2
+  - first:
+      213: 1319622985572516727
+    second: T_CheckPoint_Fire_3
+  - first:
+      213: -2683930101767719219
+    second: T_CheckPoint_Fire_4
+  - first:
+      213: 5743300995944705962
+    second: T_CheckPoint_Fire_5
+  - first:
+      213: 3469440875798309836
+    second: T_CheckPoint_Fire_6
+  - first:
+      213: -2910433412275994689
+    second: T_CheckPoint_Fire_7
+  - first:
+      213: -5193357416905965177
+    second: T_CheckPoint_Fire_8
+  - first:
+      213: 5844018437952223354
+    second: T_CheckPoint_Fire_9
+  - first:
+      213: 1603505516776378122
+    second: T_CheckPoint_Fire_10
+  - first:
+      213: 3051030402844814326
+    second: T_CheckPoint_Fire_11
+  - first:
+      213: 5366150189887163771
+    second: T_CheckPoint_Fire_12
+  - first:
+      213: 3618083337834010674
+    second: T_CheckPoint_Fire_13
+  - first:
+      213: 4552573658132506174
+    second: T_CheckPoint_Fire_14
+  - first:
+      213: -2286224869585033175
+    second: T_CheckPoint_Fire_15
+  - first:
+      213: -778704839054947916
+    second: T_CheckPoint_Fire_16
+  - first:
+      213: -9080843050188092591
+    second: T_CheckPoint_Fire_17
+  - first:
+      213: -2610199229053401697
+    second: T_CheckPoint_Fire_18
+  - first:
+      213: -1582919747509732412
+    second: T_CheckPoint_Fire_19
+  - first:
+      213: -4373338178108527801
+    second: T_CheckPoint_Fire_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 154
+        width: 34
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844ee790df1406800800000000000000
+      internalID: 603554905109488712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 233
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6921cdbcf4cc251a0800000000000000
+      internalID: -6822165842418199914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 229
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63456564ec8a31680800000000000000
+      internalID: -8785492844172913610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 227
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7738d7c1d1e305210800000000000000
+      internalID: 1319622985572516727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 231
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc63822eac3c0cad0800000000000000
+      internalID: -2683930101767719219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 231
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf6e6593dd44bf40800000000000000
+      internalID: 5743300995944705962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_6
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 219
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbad2b381ee52030800000000000000
+      internalID: 3469440875798309836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 208
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf7cde4b301c97d0800000000000000
+      internalID: -2910433412275994689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 153
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7810ea5e1fc7de7b0800000000000000
+      internalID: -5193357416905965177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 154
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78b9fe6ecf1a1150800000000000000
+      internalID: 5844018437952223354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_10
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 212
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fc5d295cbc04610800000000000000
+      internalID: 1603505516776378122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_11
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 152
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb6b708cff675a20800000000000000
+      internalID: 3051030402844814326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d8e97aa25687a40800000000000000
+      internalID: 5366150189887163771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 103
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2381b5750a3063230800000000000000
+      internalID: 3618083337834010674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 25
+        width: 31
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36e9ca1f9dfd2f30800000000000000
+      internalID: 4552573658132506174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 71
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92868b31892b540e0800000000000000
+      internalID: -2286224869585033175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 76
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9804b131c7135f0800000000000000
+      internalID: -778704839054947916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 24
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bc674bb5d5af180800000000000000
+      internalID: -9080843050188092591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 80
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95064f61a5b6cbd0800000000000000
+      internalID: -2610199229053401697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb3bb550e6580ae0800000000000000
+      internalID: -1582919747509732412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_CheckPoint_Fire_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 24
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bef231918ce43c0800000000000000
+      internalID: -4373338178108527801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_CheckPoint_Fire_0: 603554905109488712
+      T_CheckPoint_Fire_1: -6822165842418199914
+      T_CheckPoint_Fire_10: 1603505516776378122
+      T_CheckPoint_Fire_11: 3051030402844814326
+      T_CheckPoint_Fire_12: 5366150189887163771
+      T_CheckPoint_Fire_13: 3618083337834010674
+      T_CheckPoint_Fire_14: 4552573658132506174
+      T_CheckPoint_Fire_15: -2286224869585033175
+      T_CheckPoint_Fire_16: -778704839054947916
+      T_CheckPoint_Fire_17: -9080843050188092591
+      T_CheckPoint_Fire_18: -2610199229053401697
+      T_CheckPoint_Fire_19: -1582919747509732412
+      T_CheckPoint_Fire_2: -8785492844172913610
+      T_CheckPoint_Fire_20: -4373338178108527801
+      T_CheckPoint_Fire_3: 1319622985572516727
+      T_CheckPoint_Fire_4: -2683930101767719219
+      T_CheckPoint_Fire_5: 5743300995944705962
+      T_CheckPoint_Fire_6: 3469440875798309836
+      T_CheckPoint_Fire_7: -2910433412275994689
+      T_CheckPoint_Fire_8: -5193357416905965177
+      T_CheckPoint_Fire_9: 5844018437952223354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
