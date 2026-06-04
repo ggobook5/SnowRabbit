@@ -7,12 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Leaf
+  m_Name: M_Item_SnowFlower01
   m_Shader: {fileID: -6465566751694194690, guid: 1a29b4d27eb8b04479ef89c00dea533d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHABLEND_ON
+  - _FLIPBOOK_BLENDING
   m_InvalidKeywords:
   - _
   - _CFXR_DITHERED_SHADOWS_OFF
@@ -48,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8fe5dc6bf6d6a0d45b9c5c7e1bbd5807, type: 3}
+        m_Texture: {fileID: 2800000, guid: 610e2304e9011bd40bc581694f7bfa1e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -102,7 +103,7 @@ Material:
     - _UseDissolveOffsetUV: 0
     - _UseEF: 0
     - _UseEmission: 0
-    - _UseFB: 0
+    - _UseFB: 1
     - _UseFontColor: 0
     - _UseLighting: 0
     - _UseLightingWorldPosOffset: 0
