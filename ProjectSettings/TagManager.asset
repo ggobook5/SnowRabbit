@@ -11,6 +11,7 @@ TagManager:
   - Monster
   - FxTemporaire
   - DeadBarrier
+  - Barrier
   layers:
   - Default
   - TransparentFX

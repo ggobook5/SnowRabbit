@@ -151,4 +151,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b15013e8cf2f034da458109fc88a743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPoint
-  spawnPos: {x: 0, y: 0}
+  playerPrefab: {fileID: 3155741014976897673, guid: f469cdf8c3187f64d97192ccee8a9cc0, type: 3}

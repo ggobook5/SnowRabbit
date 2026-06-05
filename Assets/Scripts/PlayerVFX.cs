@@ -3,9 +3,6 @@ using UnityEngine;
 
 public class PlayerVFX : MonoBehaviour
 {
-    private static PlayerVFX instance;
-    public static PlayerVFX Instance {  get { return instance; } }
-
     private PlayerMovement _pMove;
 
     [Header("Body Particle VFX")]
@@ -45,13 +42,11 @@ public class PlayerVFX : MonoBehaviour
 
     private void Awake()
     {
-        instance = this;
+        _pMove = GetComponent<PlayerMovement>();
     }
 
     private void Start()
     {
-        _pMove = GetComponent<PlayerMovement>();
-
         bodyParticleVFX = Instantiate(bodyParticleVFXPrefab, (transform.position + bodyParticleVFXPosition), Quaternion.identity, transform);
 
         mushroomJumpVFX = Instantiate(mushroomJumpVFXPrefab, transform);
