@@ -582,6 +582,10 @@ PrefabInstance:
       propertyPath: spawnPos.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 53640503735334591, guid: f60988d30e3335d4cbe9e06e4a3c5e33, type: 3}
+      propertyPath: checkPointIndex
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2435413449878400970, guid: f60988d30e3335d4cbe9e06e4a3c5e33, type: 3}
       propertyPath: m_Name
       value: SpawnPoint
@@ -818,6 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba0b040209b3f94984f8d250056efad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnterBarrier
+  movePoint: {x: 0, y: 0}
 --- !u!1 &718070859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7321e20e50f4a6b4a95aa9a59999055c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BaseSceneManager
+  transitionTime: 0.2
 --- !u!1 &853926609
 GameObject:
   m_ObjectHideFlags: 0

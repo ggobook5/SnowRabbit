@@ -1,18 +1,20 @@
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class BaseSceneManager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    private static BaseSceneManager instance;
-    public static BaseSceneManager Instance { get { return instance; } }
+    private static GameManager instance;
+    public static GameManager Instance { get { return instance; } }
 
     public int NowScene { get; private set; }
     [SerializeField] private float transitionTime = 0.2f;
 
     private Slider transitionUI;
+    public GameObject PauseMenu { get; private set; }
+
+    private float fixedDeltaTime;
 
 
     private void Awake()
@@ -27,7 +29,14 @@ public class BaseSceneManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        transitionUI = GetComponentInChildren<Slider>(true);
+        fixedDeltaTime = Time.fixedDeltaTime;
+
+        transitionUI = GameObject.Find("Transition").GetComponent<Slider>();
+        PauseMenu = GameObject.Find("PauseMenu");
+
+        PauseMenu.SetActive(false);
+        Time.timeScale = 0f;
+        Time.fixedDeltaTime = 0f;
     }
 
     void OnEnable()
@@ -40,7 +49,6 @@ public class BaseSceneManager : MonoBehaviour
         NowScene = SceneManager.GetActiveScene().buildIndex;
         if (transitionUI.value == 1f)   StartCoroutine(TransitionExit());
     }
-
 
     public void LoadScene(int sceneIndex, bool transition = true)
     {
@@ -69,7 +77,7 @@ public class BaseSceneManager : MonoBehaviour
     private IEnumerator TransitionEnter(int _sceneIndex)
     {
         transitionUI.direction = Slider.Direction.RightToLeft;
-        for (float timeCount = 0; timeCount <= transitionTime; timeCount += Time.deltaTime)
+        for (float timeCount = 0; timeCount <= transitionTime; timeCount += Time.fixedUnscaledDeltaTime)
         {
             transitionUI.value = timeCount / transitionTime;
             yield return null;
@@ -88,7 +96,7 @@ public class BaseSceneManager : MonoBehaviour
     private IEnumerator TransitionExit()
     {
         transitionUI.direction = Slider.Direction.LeftToRight;
-        for (float timeCount = transitionTime; timeCount >= 0; timeCount -= Time.deltaTime)
+        for (float timeCount = transitionTime; timeCount >= 0; timeCount -= Time.fixedUnscaledDeltaTime)
         {
             transitionUI.value = timeCount / transitionTime;
             yield return null;
@@ -96,5 +104,26 @@ public class BaseSceneManager : MonoBehaviour
         transitionUI.value = 0;
 
         yield break;
+    }
+
+    public void Pause()
+    {
+        bool isPause = PauseMenu.activeSelf;
+        PauseMenu.SetActive(!isPause);
+        TimeScaleSet(!isPause);
+    }
+
+    public void TimeScaleSet(bool isStop)
+    {
+        Time.timeScale = isStop ? 0f : 1f;
+        Time.fixedDeltaTime = isStop ? 0f : fixedDeltaTime;
+    }
+
+    public void ExitPlay()
+    {
+        PauseMenu.SetActive(false);
+        TimeScaleSet(true);
+        DataManager.Instance.SaveData();
+        Destroy(PlayerManager.Instance.gameObject);
     }
 }

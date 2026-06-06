@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5987526106868911293}
   - component: {fileID: 53640503735334591}
   m_Layer: 0
-  m_Name: SpawnPoint
+  m_Name: CheckPoint
   m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,4 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b15013e8cf2f034da458109fc88a743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnPoint
+  checkPointIndex: -1
+  VFXPositionOffset: {x: 0, y: 1.43, z: 0}
+  unactivatedVFXPrefab: {fileID: 6203632238825988556, guid: 281d1ca93236e1a4489b4be66cbea2f3, type: 3}
+  activatedVFXPrefab: {fileID: 6203632238825988556, guid: 971dee523eb2df142b84f07feb6fa603, type: 3}
   playerPrefab: {fileID: 3155741014976897673, guid: f469cdf8c3187f64d97192ccee8a9cc0, type: 3}

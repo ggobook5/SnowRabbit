@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4761700331593833019}
   - component: {fileID: 1412480449726940429}
-  - component: {fileID: 2877814782572894411}
+  - component: {fileID: 3011252424981095803}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Spike
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!60 &2877814782572894411
+--- !u!60 &3011252424981095803
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,7 +138,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.5773587}
-      - {x: -0.5, y: -0.28866667}
-      - {x: 0.5, y: -0.28866667}
+    - - {x: -8.1, y: -1.8}
+      - {x: 8.1, y: -1.8}
+      - {x: 7.3, y: 1.8}
+      - {x: -7.3, y: 1.8}
   m_UseDelaunayMesh: 1
