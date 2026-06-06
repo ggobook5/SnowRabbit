@@ -16,6 +16,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Spike") || collision.gameObject.CompareTag("DeadBarrier"))
         {
+            PlayerManager.Instance.PlayerPauseOn();
             _pAnim.Die();
         }
         else if (collision.gameObject.CompareTag("Wall") && _pMove.IsWall)
@@ -28,6 +29,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (collision.CompareTag("Monster"))
         {
+            PlayerManager.Instance.PlayerPauseOn();
             _pAnim.Die();
             collision.enabled = false;
         }

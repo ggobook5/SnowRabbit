@@ -49,6 +49,6 @@ public class PlayerAnimation : MonoBehaviour
     {
         if (PlayerManager.Instance.Debug_setInvincibilityMode) return;
 
-        _anim.SetTrigger(animIDMelt);
+        _anim.SetTrigger(animIDDie);
     }
 }

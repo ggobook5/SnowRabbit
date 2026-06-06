@@ -54,7 +54,7 @@ AnimationClip:
       value: {fileID: 883827579228632694, guid: 184b159c66da815448d74dafeb9319f2, type: 3}
     - time: 1.6666666
       value: {fileID: 883827579228632694, guid: 184b159c66da815448d74dafeb9319f2, type: 3}
-    - time: 2.3333333
+    - time: 1.8333334
       value: {fileID: 883827579228632694, guid: 184b159c66da815448d74dafeb9319f2, type: 3}
     attribute: m_Sprite
     path: 
@@ -101,7 +101,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 2.35
+    m_StopTime: 1.85
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -128,13 +128,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0
-    functionName: PlayerPauseOn
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 1.6666666
     functionName: Reload
     data: 
@@ -142,7 +135,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2
+  - time: 1.8333334
     functionName: Respawn
     data: 
     objectReferenceParameter: {fileID: 0}
