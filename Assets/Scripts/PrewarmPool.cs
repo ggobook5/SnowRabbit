@@ -10,11 +10,11 @@ public class PoolInfo
 
 public class PrewarmPool : MonoBehaviour
 {
-    [SerializeField] private PoolInfo[] playerVFXPools;
+    [SerializeField] private PoolInfo[] objectPools;
 
     private void Start()
     {
-        foreach(PoolInfo poolInfo in playerVFXPools)
+        foreach(PoolInfo poolInfo in objectPools)
         {
             ObjectPool.Instance.InitializeNewPool(poolInfo.prefab, poolInfo.poolSize);
         }

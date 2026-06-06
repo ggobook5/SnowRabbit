@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -49,11 +48,21 @@ public class PlayerManager : MonoBehaviour
 
     public void Reload()
     {
-        BaseSceneManager.Instance.LoadScene(DataManager.Instance.NowPlayData.lastSceneIndex);
+        GameManager.Instance.LoadScene(DataManager.Instance.NowPlayData.lastSceneIndex);
     }
 
     public void Respawn()
     {
         transform.position = DataManager.Instance.NowPlayData.lastSpawnPoint;
+    }
+
+    public void OnInvincibilityMode()
+    {
+        Debug_setInvincibilityMode = !Debug_setInvincibilityMode;
+    }
+
+    public void OnPause()
+    {
+        GameManager.Instance.Pause();
     }
 }

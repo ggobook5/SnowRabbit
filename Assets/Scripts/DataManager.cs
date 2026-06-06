@@ -3,8 +3,10 @@ using System.IO;
 
 public class PlayData
 {
+    public bool[] CheckPoints = new bool[20];
     public Vector2 lastSpawnPoint = new Vector2(-12f, -5.13f);
     public int lastSceneIndex = 3;
+    public bool[] Items = new bool[20];
 }
 
 public class DataManager : MonoBehaviour
@@ -36,6 +38,8 @@ public class DataManager : MonoBehaviour
     public void SaveData()
     {
         string filePath = path + SaveSlot.ToString();
+        Debug.Log("저장 위치: " + filePath);
+
         string data = JsonUtility.ToJson(NowPlayData);
 
         if (!File.Exists(filePath))

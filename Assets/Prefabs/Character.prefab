@@ -330,19 +330,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerVFX
   bodyParticleVFXPrefab: {fileID: 4613464825874228618, guid: 20d8372ed451b464dac753153b738504, type: 3}
-  bodyParticleVFXPosition: {x: 0, y: -0.87, z: 0}
+  bodyParticleVFXOffset: {x: 0, y: -0.87, z: 0}
   dieVFXPrefab: {fileID: 6203632238825988556, guid: 2442aad11a6a490449b45f74e0fe4558, type: 3}
-  dieVFXPosition: {x: 0, y: 0, z: 0}
+  dieVFXOffset: {x: 0, y: -0.2, z: 0}
   jumpVFXPrefab: {fileID: 6203632238825988556, guid: d2d0fc5a1e05a2f44b7f28f0e0cb8d13, type: 3}
-  jumpVFXPosition: {x: 0, y: -0.7, z: 0}
+  jumpVFXOffset: {x: 0, y: -0.7, z: 0}
   kickVFXPrefab: {fileID: 7941962959608654616, guid: 8721e296e67c98f45b1af8c09899f3be, type: 3}
-  kickVFXPosition: {x: 0, y: -0.4, z: 0}
+  kickVFXOffset: {x: 0, y: -0.6, z: 0}
   meltVFXPrefab: {fileID: 6203632238825988556, guid: b261aee3daad0b042a77ce6ee30f9d2f, type: 3}
-  meltVFXPosition: {x: 0, y: -0.87, z: 0}
+  meltVFXOffset: {x: 0, y: -0.82, z: 0}
   mushroomJumpVFXPrefab: {fileID: 6000281829832294050, guid: 038ba2929927cad418e1cb4a2b67fb46, type: 3}
-  mushroomJumpVFXPosition: {x: 0, y: -0.3, z: 0}
+  mushroomJumpVFXOffset: {x: 0, y: -0.3, z: 0}
   respawnVFXPrefab: {fileID: 5112403345868107898, guid: cd960a05393244c46abebeb10d461e01, type: 3}
-  respawnVFXPosition: {x: 0, y: -0.25, z: 0}
+  respawnVFXOffset: {x: 0, y: -0.2, z: 0}
 --- !u!114 &3799477602578143239
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
@@ -9,19 +8,20 @@ public class MenuManager : MonoBehaviour
 
     public void ToMain()
     {
-        BaseSceneManager.Instance.LoadScene(MainMenu);
+        GameManager.Instance.LoadScene(MainMenu);
     }
 
     public void ToSelect()
     {
-        BaseSceneManager.Instance.LoadScene(SelectFile);
+        GameManager.Instance.LoadScene(SelectFile);
     }
 
     public void ToPlay(int saveSlotNumber)
     {
         DataManager.Instance.SaveSlot = saveSlotNumber;
         DataManager.Instance.LoadData();
-        BaseSceneManager.Instance.LoadScene(DataManager.Instance.NowPlayData.lastSceneIndex);
+        GameManager.Instance.TimeScaleSet(false);
+        GameManager.Instance.LoadScene(DataManager.Instance.NowPlayData.lastSceneIndex);
     }
 
     public void OnClickQuit()

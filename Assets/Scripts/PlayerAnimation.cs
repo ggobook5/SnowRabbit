@@ -12,6 +12,7 @@ public class PlayerAnimation : MonoBehaviour
     private int animIDWalled;
     private int animIDCharge;
     private int animIDMelt;
+    private int animIDDie;
 
     private void Awake()
     {
@@ -25,6 +26,7 @@ public class PlayerAnimation : MonoBehaviour
         animIDWalled = Animator.StringToHash("Walled");
         animIDCharge = Animator.StringToHash("Charge");
         animIDMelt = Animator.StringToHash("Melt");
+        animIDDie = Animator.StringToHash("Die");
     }
 
     private void Update()
@@ -41,5 +43,12 @@ public class PlayerAnimation : MonoBehaviour
         if (PlayerManager.Instance.Debug_setInvincibilityMode)    return;
 
         _anim.SetTrigger(animIDMelt);
+    }
+
+    public void Die()
+    {
+        if (PlayerManager.Instance.Debug_setInvincibilityMode) return;
+
+        _anim.SetTrigger(animIDDie);
     }
 }

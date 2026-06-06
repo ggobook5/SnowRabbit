@@ -299,9 +299,4 @@ public class PlayerMovement: MonoBehaviour
             }
         }
     }
-
-    public void OnInvincibilityMode()
-    {
-        PlayerManager.Instance.Debug_setInvincibilityMode = !PlayerManager.Instance.Debug_setInvincibilityMode;
-    }
 }

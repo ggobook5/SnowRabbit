@@ -6,7 +6,7 @@ public class ExitBarrier : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            BaseSceneManager.Instance.LoadScene(BaseSceneManager.Instance.NowScene + 1);
+            GameManager.Instance.LoadScene(GameManager.Instance.NowScene + 1);
         }
     }
 }

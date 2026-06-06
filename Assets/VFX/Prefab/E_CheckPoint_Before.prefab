@@ -19392,7 +19392,7 @@ GameObject:
   - component: {fileID: 643919109397468628}
   - component: {fileID: 8909445535742356226}
   m_Layer: 0
-  m_Name: E_ChekePoint_Before
+  m_Name: E_CheckPoint_Before
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
