@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 6e1dde8108f7e414cbcf2ea3f95bffe9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2657588849739588629
+    second: T_JumpLeft_0
+  - first:
+      213: -2346891258050954068
+    second: T_JumpLeft_1
+  - first:
+      213: -2615424064856055184
+    second: T_JumpLeft_2
+  - first:
+      213: -8876399555338092967
+    second: T_JumpLeft_3
+  - first:
+      213: -7914846628905915497
+    second: T_JumpLeft_4
+  - first:
+      213: -8074103539781262024
+    second: T_JumpLeft_5
+  - first:
+      213: 6190550617784957618
+    second: T_JumpLeft_6
+  - first:
+      213: 5436388283016960115
+    second: T_JumpLeft_7
+  - first:
+      213: -898434721866123217
+    second: T_JumpLeft_8
+  - first:
+      213: 3159919405392326170
+    second: T_JumpLeft_9
+  - first:
+      213: -5436555641632119819
+    second: T_JumpLeft_10
+  - first:
+      213: 321527633656155258
+    second: T_JumpLeft_11
+  - first:
+      213: -1530267860413726522
+    second: T_JumpLeft_12
+  - first:
+      213: -1387299597379640935
+    second: T_JumpLeft_13
+  - first:
+      213: 1565676635863872833
+    second: T_JumpLeft_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_JumpLeft_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 39
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb9b3c85095e1bd0800000000000000
+      internalID: -2657588849739588629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac376dc5da2e6fd0800000000000000
+      internalID: -2346891258050954068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 43
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0722f3d8ba524bbd0800000000000000
+      internalID: -2615424064856055184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e33a332a1b0d480800000000000000
+      internalID: -8876399555338092967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 12
+        width: 9
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b6d58fce0d82290800000000000000
+      internalID: -7914846628905915497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 45
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8352d97eb9503ff80800000000000000
+      internalID: -8074103539781262024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bab529ecf049e550800000000000000
+      internalID: 6190550617784957618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3785256175ee17b40800000000000000
+      internalID: 5436388283016960115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28fa4d616e1883f0800000000000000
+      internalID: -898434721866123217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ee54d05f94adb20800000000000000
+      internalID: 3159919405392326170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 13
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f32fd2b2797d84b0800000000000000
+      internalID: -5436555641632119819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 11
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c0c85edab467400800000000000000
+      internalID: 321527633656155258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 11
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0c7d81d7563cae0800000000000000
+      internalID: -1530267860413726522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_13
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991e42dcd525fbce0800000000000000
+      internalID: -1387299597379640935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_JumpLeft_14
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1457bc1ea966ab510800000000000000
+      internalID: 1565676635863872833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_JumpLeft_0: -2657588849739588629
+      T_JumpLeft_1: -2346891258050954068
+      T_JumpLeft_10: -5436555641632119819
+      T_JumpLeft_11: 321527633656155258
+      T_JumpLeft_12: -1530267860413726522
+      T_JumpLeft_13: -1387299597379640935
+      T_JumpLeft_14: 1565676635863872833
+      T_JumpLeft_2: -2615424064856055184
+      T_JumpLeft_3: -8876399555338092967
+      T_JumpLeft_4: -7914846628905915497
+      T_JumpLeft_5: -8074103539781262024
+      T_JumpLeft_6: 6190550617784957618
+      T_JumpLeft_7: 5436388283016960115
+      T_JumpLeft_8: -898434721866123217
+      T_JumpLeft_9: 3159919405392326170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
