@@ -12,8 +12,9 @@ public class PlayerAnimation : MonoBehaviour
     private int animIDWalled;
     private int animIDCharge;
     private int animIDMelt;
+    private int animIDDie;
 
-    void Start()
+    private void Awake()
     {
         _anim = GetComponent<Animator>();
         _rigid = GetComponent<Rigidbody2D>();
@@ -25,9 +26,10 @@ public class PlayerAnimation : MonoBehaviour
         animIDWalled = Animator.StringToHash("Walled");
         animIDCharge = Animator.StringToHash("Charge");
         animIDMelt = Animator.StringToHash("Melt");
+        animIDDie = Animator.StringToHash("Die");
     }
 
-    void Update()
+    private void Update()
     {
         _anim.SetFloat(animIDSpeedX, _rigid.linearVelocityX);
         _anim.SetFloat(animIDSpeedY, _rigid.linearVelocityY);
@@ -38,8 +40,15 @@ public class PlayerAnimation : MonoBehaviour
 
     public void Melt()
     {
-        if (PlayerManager.Instance.debug_setInvincibilityMode)    return;
+        if (PlayerManager.Instance.Debug_setInvincibilityMode)    return;
 
         _anim.SetTrigger(animIDMelt);
+    }
+
+    public void Die()
+    {
+        if (PlayerManager.Instance.Debug_setInvincibilityMode) return;
+
+        _anim.SetTrigger(animIDDie);
     }
 }

@@ -10,6 +10,7 @@ public class PlayerMovement: MonoBehaviour
     private Rigidbody2D _rigid;
     private SpriteRenderer _render;
     private PlayerAnimation _pAnim;
+    private PlayerVFX _pVFX;
 
 
 
@@ -151,17 +152,18 @@ public class PlayerMovement: MonoBehaviour
 
 
 
-    void Start()
+    private void Awake()
     {
         _rigid = GetComponent<Rigidbody2D>();
         _render = GetComponent<SpriteRenderer>();
         _pAnim = GetComponent<PlayerAnimation>();
+        _pVFX = GetComponent<PlayerVFX>();
         _jumpAction = InputSystem.actions.FindAction("Jump");
     }
 
     void Update()
     {
-        if (PlayerManager.Instance.playerPause)     return;
+        if (PlayerManager.Instance.PlayerPause)     return;
 
         _deltaTime = Time.deltaTime;
 
@@ -191,13 +193,13 @@ public class PlayerMovement: MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (PlayerManager.Instance.playerPause)     return;
+        if (PlayerManager.Instance.PlayerPause)     return;
 
         _render.flipX = (inputDirection.x == 0) ? _render.flipX : (inputDirection.x < 0f);
 
         if (isWallJump)
         {
-            PlayerVFX.Instance.KickVFX();
+            _pVFX.KickVFX();
             _rigid.gravityScale = 1f;
             _rigid.linearVelocity = Vector2.zero;
             _rigid.linearVelocity = new Vector2(-inputDirection.x * wallJumpForce, wallJumpForce);
@@ -269,7 +271,7 @@ public class PlayerMovement: MonoBehaviour
             }
             if (_jumpAction.WasReleasedThisFrame())
             {
-                PlayerVFX.Instance.JumpVFX();
+                _pVFX.JumpVFX();
                 float chargeRatio = jumpChargeTime / maxChargeTime;
                 float finalJumpForce = defaultJumpForce * Mathf.Lerp(1f, maxChargeMultiplier, chargeRatio);
                 _rigid.linearVelocityY = finalJumpForce;
@@ -296,10 +298,5 @@ public class PlayerMovement: MonoBehaviour
                 isWallJump = true;
             }
         }
-    }
-
-    public void OnInvincibilityMode()
-    {
-        PlayerManager.Instance.debug_setInvincibilityMode = !PlayerManager.Instance.debug_setInvincibilityMode;
     }
 }

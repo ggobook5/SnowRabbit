@@ -6,7 +6,7 @@ public class PlayerInteraction : MonoBehaviour
     private PlayerMovement _pMove;
     private PlayerAnimation _pAnim;
 
-    private void Start()
+    private void Awake()
     {
         _pMove = GetComponent<PlayerMovement>();
         _pAnim = GetComponent<PlayerAnimation>();
@@ -16,7 +16,8 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Spike") || collision.gameObject.CompareTag("DeadBarrier"))
         {
-            _pAnim.Melt();
+            PlayerManager.Instance.PlayerPauseOn();
+            _pAnim.Die();
         }
         else if (collision.gameObject.CompareTag("Wall") && _pMove.IsWall)
         {
@@ -28,14 +29,19 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (collision.CompareTag("Monster"))
         {
-            _pAnim.Melt();
+            PlayerManager.Instance.PlayerPauseOn();
+            _pAnim.Die();
             collision.enabled = false;
         }
-        
-        if (collision.TryGetComponent<SpawnPoint>(out SpawnPoint _spawn))
+
+        if (collision.TryGetComponent<CheckPoint>(out CheckPoint checkPoint))
         {
-            PlayerManager.Instance.spawnPoint = _spawn.spawnPos;
-            collision.GetComponent<BoxCollider2D>().enabled = false;
+            checkPoint.SetActivated();
+        }
+
+        if (collision.TryGetComponent<Item>(out Item item))
+        {
+            item.SetActivated();
         }
     }
 }
